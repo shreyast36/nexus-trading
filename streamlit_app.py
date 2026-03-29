@@ -2,19 +2,23 @@
 NEXUS Trading Terminal - Streamlit Cloud Entry Point
 =====================================================
 This file serves as the entry point for Streamlit Cloud deployment.
-It properly sets up paths and runs the main engine app.
+It properly sets up paths and imports the main engine app.
 """
 
 import sys
 import os
 from pathlib import Path
 
+# Get the directory where this script is located
+ROOT_DIR = Path(__file__).parent.resolve()
+ENGINE_DIR = ROOT_DIR / "engine"
+
 # Add engine directory to Python path
-engine_dir = Path(__file__).parent / "engine"
-sys.path.insert(0, str(engine_dir))
+sys.path.insert(0, str(ENGINE_DIR))
 
-# Change to engine directory so relative imports work
-os.chdir(engine_dir)
+# Change working directory to engine so relative paths work (e.g., Data/)
+os.chdir(ENGINE_DIR)
 
-# Now import and run the app by executing it
-exec(open(engine_dir / "app.py", encoding="utf-8").read())
+# Import and run the app module
+import runpy
+runpy.run_path(str(ENGINE_DIR / "app.py"), run_name="__main__")
