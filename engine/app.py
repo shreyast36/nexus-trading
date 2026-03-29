@@ -205,7 +205,7 @@ PANEL  = "#0b1120"
 BORDER = "#1a2744"
 
 # ── Modern CSS ───────────────────────────────────────────────────────────────
-st.markdown(\"\"\"<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">\"\"\", unsafe_allow_html=True)
+st.markdown('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">', unsafe_allow_html=True)
 
 st.markdown(f"""
 <style>
