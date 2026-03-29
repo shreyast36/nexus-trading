@@ -1,0 +1,89 @@
+market_id,slug,question,description,yes_token_id,mid,best_bid,best_ask,spread,liquidity,volume,end_date,book_source,event_date,days_to_resolution
+0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1,will-netherlands-win-the-2026-fifa-world-cup-739,Will Netherlands win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",55935183786009449883683540312350046975246300613283087403691731856990327029236,0.0335,0.033,0.034,0.0010000000000000009,334382.63432,8593848.57132108,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114
+0xdb68062324c27327e9cd4b21b1dd0deadbc4b860abb8c076b9ba3ed4652ced13,megaeth-market-cap-fdv-6b-one-day-after-launch-365-559-334-815-776-488-224-766,MegaETH market cap (FDV) >$6B one day after launch?,"This market will resolve to ""Yes"" if the Fully Diluted Valuation of MegaETH's token is greater than $6,000,000,000 1 day after launch. Otherwise, the market will resolve to ""No.""
+
+For the purposes of this market ""locked"" tokens or non-swappable tokens will not be considered a launch.
+
+""1 day after launch"" is defined as 24 hours after launch. The resolution source for this market is the most liquid price source available. If MegaETH doesn't launch a token by June 30, 2026, 11:59 PM ET, this market will resolve to ""No.""",78059086946243166298250434231742381590921423205138738331803802527161013528631,0.023,0.022,0.024,0.0020000000000000018,65924.54998,2266180.230254021,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94
+0xfc6260666d020a912a87d9000eff5116d2adfb8c30aba543427a4c1f1411f1a0,megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733,MegaETH market cap (FDV) >$2B one day after launch?,"This market will resolve to ""Yes"" if the Fully Diluted Valuation of MegaETH's token is greater than $2,000,000,000 1 day after launch. Otherwise, the market will resolve to ""No.""
+
+For the purposes of this market ""locked"" tokens or non-swappable tokens will not be considered a launch.
+
+""1 day after launch"" is defined as 24 hours after launch. The resolution source for this market is the most liquid price source available. If MegaETH doesn't launch a token by June 30, 2026, 11:59 PM ET, this market will resolve to ""No.""",57301498276970257025109591078431189727442302532145853906375186182281603517458,0.11499999999999999,0.11,0.12,0.009999999999999995,65887.9554,5669251.393183066,2025-12-31T00:00:00Z,rest:GET,2025-12-31 00:00:00,-87
+0xe459d1b598da754c9fd5fc155b6efe3a144aa80abbc7d041fce7d35d903d3c8e,will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254,Will MegaETH perform an airdrop by June 30? ,"This market will resolve to ""Yes"" if MegaETH launches a token and performs an airdrop by June 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+For the purposes of this market ""locked"" tokens or non-swappable tokens will not suffice to resolve this market to ""Yes"". Airdrops of NFTs will not qualify.
+
+The primary resolution source for this market is on-chain information and official information from MegaETH, however a consensus of credible reporting will also be used.",96797656031191119176188453471637044475353637081608890153571023284371119486681,0.437,0.424,0.45,0.026000000000000023,7680.44158,964626.1295040016,2026-02-01T05:00:00Z,rest:GET,2026-02-01 05:00:00,-55
+0xe2b48e3b44de9658ee9c8b37354301763e33c0b502fd966839d644b4c0a9dea8,will-harvey-weinstein-be-sentenced-to-less-than-5-years-in-prison,Will Harvey Weinstein be sentenced to less than 5 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",77166477669007661974218999697956080000161736671391584414287437514245884953047,0.097,0.093,0.101,0.008000000000000007,6180.79705,49140.95789099997,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87
+0x2499928ffbe6022444543dcd940075259cecb5e41e346284b578cb64e1404d32,will-harvey-weinstein-be-sentenced-to-more-than-30-years-in-prison,Will Harvey Weinstein be sentenced to more than 30 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",87036266705700330884624690101790543034325645582506946990660049003915176778714,0.07100000000000001,0.033,0.109,0.076,5458.92323,34936.155650000066,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87
+0x3209617364a0d598435806b59d0d056b606022dc9028c466ad7912df94fc170c,will-harvey-weinstein-be-sentenced-to-between-5-and-10-years-in-prison,Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",8585617872562550075367684165842985213222082790621129799520234539666057750015,0.089,0.084,0.094,0.009999999999999995,1640.72335,35319.708130999985,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87
+0xdee5db5410b362783a1405b66b9aa08a7d050ae1f99e8da85b9d1ae7962dad3b,will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison,Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",40689385937970031985272152180777653235879119412231903065658922913468759560353,0.21450000000000002,0.199,0.23,0.031,1325.63006,151398.94177400027,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87
+0xf398b0e5016eeaee9b0885ed84012b6dc91269ac10d3b59d60722859c2e30b2f,will-harvey-weinstein-be-sentenced-to-no-prison-time,Will Harvey Weinstein be sentenced to no prison time?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",24327803960645909378149041810697343640752122608192367041827900158592826352552,0.2915,0.263,0.32,0.056999999999999995,1034.13005,292499.5491460002,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87
+0x3d495a3e05eaffe438bb1c2ab97ed57a79b0a6ab18a2ca6fa5b448e20ce70082,will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison,Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",15540133404064485946536607974212890170021691204987131841181394872998839987451,0.176,0.11,0.242,0.132,262.21621,121076.548094,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87

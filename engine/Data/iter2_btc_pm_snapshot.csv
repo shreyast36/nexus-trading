@@ -1,0 +1,12 @@
+Metric,Value
+pm_bullish_mean,0.4885
+pm_bearish_mean,
+pm_net_sentiment,0.4885
+pm_liquidity_weighted_sentiment,0.4885
+pm_avg_spread,0.0030000000000000027
+pm_total_liquidity,420762.33793
+pm_total_volume,3799303.967379686
+pm_dispersion,0.0
+pm_event_risk,0.0
+pm_market_quality,0.8
+pm_conflict_score,0.4885

@@ -1,0 +1,12 @@
+market_id,slug,question,description,yes_token_id,mid,best_bid,best_ask,spread,liquidity,volume,end_date,book_source,event_date,days_to_resolution,relevance_score,theme,direction,direction_sign,market_quality_score
+0xbb57ccf5853a85487bc3d83d04d669310d28c6c810758953b9d9b91d1aee89d2,will-bitcoin-hit-1m-before-gta-vi-872,Will bitcoin hit $1m before GTA VI?,"This market will resolve to ""Yes"" if any Binance 1 minute candle for Bitcoin (BTCUSDT) has a final ""High"" price of $1,000,000 or higher before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to ""No"".
+
+If neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.
+
+For the purposes of this market, ""release"" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.
+
+The resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.
+
+The resolution source for Bitcoin is Binance, specifically the BTCUSDT ""High"" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on ""1m"" for one-minute candles selected on the top bar.
+
+Please note that the outcome of this market depends solely on the price data from the Binance BTCUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",105267568073659068217311993901927962476298440625043565106676088842803600775810,0.4885,0.487,0.49,0.0030000000000000027,420762.33793,3799303.967379686,2026-07-31T12:00:00Z,rest:GET,2026-07-31 12:00:00,125,1,price,bullish,1,0.8

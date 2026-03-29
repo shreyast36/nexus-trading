@@ -1,0 +1,818 @@
+market_id,slug,question,description,yes_token_id,mid,best_bid,best_ask,spread,liquidity,volume,end_date,book_source,event_date,days_to_resolution
+0x4fe305a2ae995a52ff278895344895fe587b4fec3d5f04347b4dbf5e99bce99c,will-qatar-win-the-2026-fifa-world-cup,Will Qatar win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",18605216520960122093689427575806651607517827372535894526532079999408408169156,0.0025,0.002,0.003,0.001,2145354.59237,10829443.656700924,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x506f80bcf76bc75e6b31a250e2d754f347c4c231665326931d58bdb339ba1913,will-haiti-win-the-2026-fifa-world-cup,Will Haiti win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",113379015922744700109400673843380371641970914885846970213129353605968934558386,0.0025,0.002,0.003,0.001,2099641.62266,11755484.061330313,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x881a3ffa618b6ae0ab95a5637e310afb1afc2d99c921bfe3235b15eccfce0344,will-ghana-win-the-2026-fifa-world-cup,Will Ghana win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",43907673646206657865778036957293730446366626078011238443367990170655175896145,0.0025,0.002,0.003,0.001,2024308.34666,7763584.314100394,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x289568d555ec620ed6fa33c936c5f42649d3a2e30748a1daf7079f42453fbea4,will-ivory-coast-win-the-2026-fifa-world-cup,Will Ivory Coast win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",58374167250364215964582274356498746399676421878376948523944979542572589542202,0.0045000000000000005,0.004,0.005,0.001,1972991.59852,8326731.997814819,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xdb4b2f370c3d0e996fbb32213c87aa5402936e3d4882432b6738e2f5661b79a6,will-curaao-win-the-2026-fifa-world-cup,Will Curaçao win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",69020832226510184384177497367584971770730339593583713190288186699694495509961,0.0015,0.001,0.002,0.001,1875097.82403,12135117.69827389,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x33a87d02fa01e958929385c74b8627d32cc4474e9ebd312d268865c5207147fa,will-jordan-win-the-2026-fifa-world-cup-233,Will Jordan win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",98686749402500678753487703372528277029342097490180026723487433517076969282825,0.0025,0.002,0.003,0.001,1775289.39523,15694666.174418652,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x7a18c03e9dd79943a25c65a5b696378e54b5b7d236140edb5d157685ce96476a,will-the-milwaukee-bucks-win-the-2026-nba-finals,Will the Milwaukee Bucks win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Milwaukee Bucks win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",45990013143445742554418902941609344301435090837151736095983841403365776942169,0.001,,0.001,,1687609.05356,8720453.115261847,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x3bc69cb672591e4fcd2ef856b64b219a906e15d4601b50066ac81a446574dfaf,will-cape-verde-win-the-2026-fifa-world-cup,Will Cape Verde win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",61595193871140044336898809781418183952441527621084596848414908595268863899573,0.0025,0.002,0.003,0.001,1671715.90362,9793351.646145364,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x7412d284c8f63791fec807f9b1f61c6fe61163621775a3dc8686cd2575272abe,will-egypt-win-the-2026-fifa-world-cup,Will Egypt win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",30499731947464516579580181356221397335865912996104577000510883912653418218808,0.0035,0.003,0.004,0.001,1619594.15695,9759107.928062296,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x098e2be3df8ab529940c567819f8ef007cf007820e9d627642a5bbfaa42af372,will-australia-win-the-2026-fifa-world-cup-816,Will Australia win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",43661509251351142169227141691164122649250455115438867334436875294380701133091,0.0035,0.003,0.004,0.001,1615752.21149,7894195.212365155,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x65307f30dce84ac35e41813035d3c04933da830dc4efbbb2fcdc4b282700ef3b,will-south-korea-win-the-2026-fifa-world-cup-485,Will South Korea win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",80724786407275266937534613008558715581084712230616856739273522348302669402554,0.0045000000000000005,0.004,0.005,0.001,1522854.88983,12927800.373372171,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x233ce0c3969a5cd5079287f16fcd283be7c1db82263e08697f85dbe1b4d2113c,will-south-africa-win-the-2026-fifa-world-cup,Will South Africa win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",29544965695734183971376022965555206180154533479443150154863135205600734339980,0.0025,0.002,0.003,0.001,1515542.28638,18792376.05943766,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x84edef36bded182da6a395ac6c785dba8f3e09b6c5ad041385b2042536cbef25,will-iran-win-the-2026-fifa-world-cup-788,Will Iran win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",33747305042007778221968790541070114008811587676172030120559423448386310500957,0.0015,0.001,0.002,0.001,1504507.89982,10873016.499823164,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xff0cfa9506cfa95759e4c7591654195bd26e3011f9882b51439135e04f2b69f1,will-tunisia-win-the-2026-fifa-world-cup-165,Will Tunisia win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",86035858416252385053603758548087253570549129844230230783932738372075949702177,0.0035,0.003,0.004,0.001,1499344.85869,10417612.09348928,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x965ebc5d79eb1ec02cad67245a44b9e45b33359018f013fb6cf81d5bbf7bcc8d,will-uzbekistan-win-the-2026-fifa-world-cup-773,Will Uzbekistan win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",90538013438399246674125939147272424357773921253199632436930218305581040235987,0.0015,0.001,0.002,0.001,1431375.20224,25961539.530532055,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x9e5f9d8c384f8fe368b195fa9a780be58643dff7360588a4e577012df8af00a7,will-new-zealand-win-the-2026-fifa-world-cup-635,Will New Zealand win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",79609298644734030886284029462369514848707878622071495577618126141372199748974,0.0015,0.001,0.002,0.001,1423459.26475,14952622.07034129,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x67443cb1ffb2bf180f7df5b6ca7adff63f7e8e933c7e41405ba118f3e9f8befb,will-canada-win-the-2026-fifa-world-cup-755,Will Canada win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",99303605181956827630838461879484468077121754034387765735989859308848389894408,0.0055,0.005,0.006,0.001,1417222.0729,11281540.041716857,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f,will-england-win-the-2026-fifa-world-cup-937,Will England win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",115556263888245616435851357148058235707004733438163639091106356867234218207169,0.1275,0.127,0.128,0.0010000000000000009,1333931.11156,6439592.187395859,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x5a59d269c2b5108cd2f64c624e46ee2c8b5cfd88b882582565f927918315b6aa,will-algeria-win-the-2026-fifa-world-cup,Will Algeria win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",58392024727359233794992635293106675983094683080284912908526627785964160484939,0.0035,0.003,0.004,0.001,1330869.12085,9889827.602385946,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xf950740bc71136155d6525cc0528a582c81f88812bff227803190c32ca25f54d,will-scotland-win-the-2026-fifa-world-cup,Will Scotland win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",105252206997885252352889070218074909957179496257006510170583432513037465278006,0.0035,0.003,0.004,0.001,1298202.83873,10496453.560200095,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x7876851632c295043c66536150a304cb785abdf712ba8489d298c6e6926be106,will-uruguay-win-the-2026-fifa-world-cup-932,Will Uruguay win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",97239126062673310243763617236644392945530356142765650402171508075574679292913,0.0135,0.013,0.014,0.0010000000000000009,1278928.76907,7213992.809596985,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x3fb8a8de2ac275882d72b2c4f22d41776fcf033f9e413a77a84dd395c0d5257c,will-saudi-arabia-win-the-2026-fifa-world-cup,Will Saudi Arabia win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",23542782083949026234898323432000742558288032327930681121040136746492993951914,0.0035,0.003,0.004,0.001,1251913.70762,16992779.25165852,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xfe230d510eaf545198c0d62bb17871e5fe8989f1b19aa54c0c062b858360987c,will-austria-win-the-2026-fifa-world-cup,Will Austria win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",88168215299416146215691671077998911754346458567817860712850392736799004561327,0.0055,0.005,0.006,0.001,1248378.57189,9572270.305762265,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894,will-france-win-the-2026-fifa-world-cup-924,Will France win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",108233603819467706476318984012158651931658302669301887462181073562758483842092,0.1085,0.108,0.109,0.0010000000000000009,1199261.75644,4048776.309097938,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892,will-spain-win-the-2026-fifa-world-cup-963,Will Spain win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",4394372887385518214471608448209527405727552777602031099972143344338178308080,0.1575,0.157,0.158,0.0010000000000000009,1162967.7254,5170337.406707054,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xfbf7ab9e6b6d324ffe436bab8c7a1e10aeb8200e10c1e1dbb35d2959becebc1e,will-the-golden-state-warriors-win-the-2026-nba-finals,Will the Golden State Warriors win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Golden State Warriors win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",24562451406833903239172268319519891863383297300349256425313284172658771272863,0.0035,0.003,0.004,0.001,1110842.17299,8170857.182659935,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x6972edb1b3f8cd8192651a665fc424dff846efe1c4a2376f628d4b20c704144c,will-senegal-win-the-2026-fifa-world-cup,Will Senegal win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",32169302633723235235251659810064817019484855501133685217130365128535248672349,0.0075,0.007,0.008,0.001,1079667.55672,8023606.389227388,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xbaf7780f9059e34b84301fd411f8dc573b4d56adfe6e0cda33daf304b1438da4,will-ecuador-win-the-2026-fifa-world-cup-986,Will Ecuador win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",39971087496427056640429359043364261029374524049464674733142166279730655826181,0.0085,0.008,0.009,0.0009999999999999992,1041641.63288,8672395.463173881,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x6331a779482df72d904c3c1e12b6409ff836bc06f8c97945cba9b25ada2c605c,will-the-portland-trail-blazers-win-the-2026-nba-finals,Will the Portland Trail Blazers win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Portland Trail Blazers win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",82402823484466457361170410951601106261368113664328436062375970009969959380598,0.0035,0.003,0.004,0.001,1016904.56406,14797735.316838594,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c,will-jesus-christ-return-before-gta-vi-665,Will Jesus Christ return before GTA VI?,"This market will resolve to ""Yes"" if The Second Coming of Jesus Christ occurs before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to ""No"".
+
+If neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.
+
+For the purposes of this market, ""release"" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.
+
+The resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.
+
+The resolution source for the return of Jesus will be a consensus of credible sources.",90435811253665578014957380826505992530054077692143838383981805324273750424057,0.485,0.48,0.49,0.010000000000000009,763993.1586,10342016.275755065,2026-07-31T12:00:00Z,rest:GET,2026-07-31 12:00:00,125.0
+0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f,will-argentina-win-the-2026-fifa-world-cup-245,Will Argentina win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",18812649149814341758733697580460697418474693998558159483117100240528657629879,0.0995,0.099,0.1,0.0010000000000000009,758877.4615,6246359.450274018,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a,will-brazil-win-the-2026-fifa-world-cup-183,Will Brazil win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",27576533317283401577758999384642760405921738493660383550832555714312627457443,0.0865,0.086,0.087,0.0010000000000000009,758396.0328,6356912.8362580035,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x0f49db97f71c68b1e42a6d16e3de93d85dbf7d4148e3f018eb79e88554be9f75,will-gavin-newsom-win-the-2028-democratic-presidential-nomination-568,Will Gavin Newsom win the 2028 Democratic presidential nomination?,"This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.
+
+The resolution source for this market will be a consensus of official Democratic Party sources.
+
+Any replacement of the democratic nominee before election day will not change the resolution of the market.",54533043819946592547517511176940999955633860128497669742211153063842200957669,0.243,0.242,0.244,0.0020000000000000018,745070.17344,16342088.202390904,2028-11-07T00:00:00Z,rest:GET,2028-11-07 00:00:00,955.0
+0x4405c62496c4fdd275d17ec31567a01534013c518c314ce61bb633b5e7cb6426,will-the-toronto-raptors-win-the-2026-nba-finals,Will the Toronto Raptors win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Toronto Raptors win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",111039354521750894925304771773687530394455073318948424656845140321925374032772,0.0055,0.005,0.006,0.001,740748.14161,10280663.56540003,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771,will-colombia-win-the-2026-fifa-world-cup-734,Will Colombia win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",98803390175521456712653678280474920637934596234667490983228578374641217211132,0.0165,0.016,0.017,0.0010000000000000009,710811.12832,6861076.555767848,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xcdb1f0400949238a63d3e88243d2ada08cd9c2a71985ced9f0cfd5e66354cf90,will-usa-win-the-2026-fifa-world-cup-467,Will USA win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",94603648636330087039501304492699481091005420017442244191603206509188088089447,0.016,0.015,0.017,0.0020000000000000018,665234.50753,4588807.878625853,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x0189df05ed7bf84d799213b01a79571e305c03b2ac5359cfbb3a323448ba20fa,will-japan-win-the-2026-fifa-world-cup-112,Will Japan win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",19159976531313550247579355752030367100657092033093647047491459813592996250034,0.014499999999999999,0.014,0.015,0.0009999999999999992,608624.49062,8487834.801664965,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x7338d9dea0de820ed621abdff3de2d4b07a573bc0c1a6f7128941f4d0c5606e3,will-the-orlando-magic-win-the-2026-nba-finals,Will the Orlando Magic win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Orlando Magic win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",95140346952277551620015228752585531762813913098320669805735291271863965388665,0.0045000000000000005,0.004,0.005,0.001,596629.97235,7585413.626932996,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x3a26ca6425e2d98f14935670bc22cdb0744defc6f6d83c65f8c413a921c5c70c,will-switzerland-win-the-2026-fifa-world-cup,Will Switzerland win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",62131913648515148266463816694306031394539656598501514114816028349608560215534,0.0075,0.007,0.008,0.001,562043.77202,8060495.298669394,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xd65891729ce093cc12236856837eba1a0872fc7998fd4294c21346f7db68079c,will-josh-shapiro-win-the-2028-democratic-presidential-nomination-977,Will Josh Shapiro win the 2028 Democratic presidential nomination?,"This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.
+
+The resolution source for this market will be a consensus of official Democratic Party sources.
+
+Any replacement of the democratic nominee before election day will not change the resolution of the market.",71169839497420596285841847514123589847893415750912355173877524195175834054354,0.0375,0.037,0.038,0.0010000000000000009,534752.18117,5793889.025468388,2028-11-07T00:00:00Z,rest:GET,2028-11-07 00:00:00,955.0
+0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c,will-norway-win-the-2026-fifa-world-cup-893,Will Norway win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",60447443643099453130956385288904175887233107411078568881602330835010340506057,0.0315,0.031,0.032,0.0010000000000000009,532490.90729,7389381.17789918,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xa49fc89bfb87bb302bfc43567709850565161bdaed5bc506bff4b85fd3c5c2ee,will-the-phoenix-suns-win-the-2026-nba-finals,Will the Phoenix Suns win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Phoenix Suns win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",106572879185916710503631021854572801471104977091252507745096331167318654083650,0.0055,0.005,0.006,0.001,525387.733,10552891.242708,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565,will-alexandria-ocasio-cortez-win-the-2028-democratic-presidential-nomination-653,Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?,"This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.
+
+The resolution source for this market will be a consensus of official Democratic Party sources.
+
+Any replacement of the democratic nominee before election day will not change the resolution of the market.",107064985435494333113391038470401719113272800530429703182710416066774068907304,0.0825,0.082,0.083,0.0010000000000000009,505688.55426,6047730.57493313,2028-11-07T00:00:00Z,rest:GET,2028-11-07 00:00:00,955.0
+0x4c325469d9b516ef4e6b8f73a81a12607dec075e3c2fd454f91765aaeafc4760,will-pete-buttigieg-win-the-2028-democratic-presidential-nomination-687,Will Pete Buttigieg win the 2028 Democratic presidential nomination?,"This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.
+
+The resolution source for this market will be a consensus of official Democratic Party sources.
+
+Any replacement of the democratic nominee before election day will not change the resolution of the market.",91031279171981959197361710127213577102576826515163085396576756946418341946256,0.0375,0.037,0.038,0.0010000000000000009,494000.35524,9353907.964015678,2028-11-07T00:00:00Z,rest:GET,2028-11-07 00:00:00,955.0
+0x675bba4df50fd123f7fbfbafa67e9b75f4092d85ce0f9148ce78fc945964c856,will-paraguay-win-the-2026-fifa-world-cup-967,Will Paraguay win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",93165696161088512376930999170413968261015485018106746563527821398897374023845,0.0045000000000000005,0.004,0.005,0.001,481729.46462,10170202.248694371,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x1595b4818eeb1ea1e0bec5de6f057218e557feee9b405a0e930d290384fa1d16,will-germany-win-the-2026-fifa-world-cup-467,Will Germany win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",81739002353269632749850710185641576213562066971072676369728657545679630163887,0.0535,0.053,0.054,0.0010000000000000009,454983.99686,6663543.666036434,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x37a6de1b21803e5f3fb1965116218215d79963af4f7e51659696366267a63a03,will-morocco-win-the-2026-fifa-world-cup-464,Will Morocco win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",69910730841487615802736046038473620030754616421912831175284551372639933569112,0.0165,0.016,0.017,0.0010000000000000009,449374.51736,8740853.333437083,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8,will-portugal-win-the-2026-fifa-world-cup-912,Will Portugal win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",45415751658241142530386585138386640503488308219341470020075667342738719018629,0.0675,0.067,0.068,0.0010000000000000009,447496.06257,7932504.23554377,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xc7c21c8972c773b34f36f67f15dada2584474d959f7e338aca5994727d37ae39,will-italy-win-the-2026-fifa-world-cup-813,Will Italy win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",71902280236980528007966111072910269163651886024599423678358797794246690742124,0.025500000000000002,0.025,0.026,0.0009999999999999974,446566.30641,7398998.629954845,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xbb57ccf5853a85487bc3d83d04d669310d28c6c810758953b9d9b91d1aee89d2,will-bitcoin-hit-1m-before-gta-vi-872,Will bitcoin hit $1m before GTA VI?,"This market will resolve to ""Yes"" if any Binance 1 minute candle for Bitcoin (BTCUSDT) has a final ""High"" price of $1,000,000 or higher before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to ""No"".
+
+If neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.
+
+For the purposes of this market, ""release"" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.
+
+The resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.
+
+The resolution source for Bitcoin is Binance, specifically the BTCUSDT ""High"" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on ""1m"" for one-minute candles selected on the top bar.
+
+Please note that the outcome of this market depends solely on the price data from the Binance BTCUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",105267568073659068217311993901927962476298440625043565106676088842803600775810,0.4885,0.487,0.49,0.0030000000000000027,421202.23393,3799303.967379686,2026-07-31T12:00:00Z,rest:GET,2026-07-31 12:00:00,125.0
+0x5ccfe1b69a582d2985db08a8481a0d74c314b1fce9b4711ae2efb2c6467fe6aa,will-mexico-win-the-2026-fifa-world-cup-529,Will Mexico win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",22587775301869146748237913050505932485648958481571808324285560650057390882036,0.0115,0.011,0.012,0.0010000000000000009,418956.0552,6601921.341535239,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x567f1ff714731fafa702d454a105b064a7ec4d10f6fb71ad3221f4918681c709,will-the-philadelphia-76ers-win-the-2026-nba-finals,Will the Philadelphia 76ers win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Philadelphia 76ers win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",5644679982684846699855787022092402984369447277920326773883608030240292167917,0.006500000000000001,0.006,0.007,0.001,396093.67413,6496202.811783962,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0xfda648d24cdad32dfe959195bd75ef4c81fbea5130eb6c7a4a0c18607a11ce63,will-the-atlanta-hawks-win-the-2026-nba-finals,Will the Atlanta Hawks win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Atlanta Hawks win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",46018378684967856456278619377189791752501136727354913341087475972513992392267,0.006500000000000001,0.006,0.007,0.001,373062.48552,14602221.840171842,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0xb76183fb9e7e80c5a8f983a87ceefd35c9c177f684dd001d7387dc7b70d596d6,will-the-miami-heat-win-the-2026-nba-finals,Will the Miami Heat win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Miami Heat win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",37553153998693380670857208408425399740373310817860780263908431095180775476801,0.0055,0.005,0.006,0.001,368882.62418,10136491.801860936,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37,will-the-new-york-knicks-win-the-2026-nba-finals,Will the New York Knicks win the 2026 NBA Finals?,"This market will resolve to “Yes” if the New York Knicks win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",20257190540739490630509657713144742134547949967093643458458133445357169845406,0.0435,0.043,0.044,0.0010000000000000009,365331.40437,3777880.0194949377,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1,will-netherlands-win-the-2026-fifa-world-cup-739,Will Netherlands win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",55935183786009449883683540312350046975246300613283087403691731856990327029236,0.0335,0.033,0.034,0.0010000000000000009,333606.97832,8593995.63014308,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x22e7b5e35423e76842dd3a5e1a21d13793811080d5e7b2896d0c001bd5e97d54,will-the-oklahoma-city-thunder-win-the-2026-nba-finals,Will the Oklahoma City Thunder win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Oklahoma City Thunder win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",49500299856831034491021962156746701298730459370557900271970866855042624695770,0.375,0.37,0.38,0.010000000000000009,322796.603,5615056.765649975,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811,will-belgium-win-the-2026-fifa-world-cup-358,Will Belgium win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",30815807067456631524510535002617106205417832891402132396713720656146245200000,0.0185,0.018,0.019,0.0010000000000000009,318721.57628,7310571.061996138,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0xc58cfb7397c4f3f803f5c20135cafa7f6d2c87cf3bb1e6138042b95d828e1866,will-the-charlotte-hornets-win-the-2026-nba-finals,Will the Charlotte Hornets win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Charlotte Hornets win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",56958503032603479474712760211473691965846495282533669255954105717594026846100,0.011,0.01,0.012,0.002,314552.90064,30202726.834372394,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x9b56568af78dd036b03c641e0673729d72cd7d63578eb0119cd23eb1f94f1b56,will-the-houston-rockets-win-the-2026-nba-finals,Will the Houston Rockets win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Houston Rockets win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",50705248713323657762767401378286601907820885259053704401453562452183494476631,0.0155,0.015,0.016,0.0010000000000000009,305272.45724,3584629.5269659813,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x796e791e7058571e460278814fc7a3183752285338f1400087b98bef3c447908,will-the-los-angeles-lakers-win-the-2026-nba-finals,Will the Los Angeles Lakers win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Los Angeles Lakers win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",86297520870744792204751483474339201341298076835836561764334428915355504860913,0.0395,0.039,0.04,0.0010000000000000009,302599.70001,6313319.386298041,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0xe202539dfbeced92dc4112f134a205c80ca6cf4db32bd82f05b291c297219fd8,will-the-detroit-pistons-win-the-2026-nba-finals,Will the Detroit Pistons win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Detroit Pistons win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",59742411602053785892348440048778056320272639465974092140970920277782290781360,0.0365,0.036,0.037,0.0010000000000000009,296941.63459,5891194.934149027,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x4e65282819c98c6aed529f357fbf5983b1ae9407a3c25bd50fe97b2906df68f9,will-the-denver-nuggets-win-the-2026-nba-finals,Will the Denver Nuggets win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Denver Nuggets win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",56814725870179920615881424393027028330166672775619196396436430486653645555698,0.08499999999999999,0.08,0.09,0.009999999999999995,264354.0295,3279662.042320986,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x6b44bd667fad6cb5b3b68d8bd1055a038c77d9176dbd51f123879797cc3368a7,will-the-cleveland-cavaliers-win-the-2026-nba-finals,Will the Cleveland Cavaliers win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Cleveland Cavaliers win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",21929863894047830651599085392978377118642353711084157807549430066031384497667,0.0455,0.045,0.046,0.0010000000000000009,258035.44671,4577513.917534936,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0xe5bd80313b8859e3f5761568ac9498866ea9d4419e4d1b6a877a9a9bd2754cb4,will-croatia-win-the-2026-fifa-world-cup,Will Croatia win the 2026 FIFA World Cup?,"This market will resolve according to the national team that wins the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to win the FIFA World Cup based on the rules of FIFA (e.g., they are eliminated in the knockout stage), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or has not been completed by October 13, 2026, 11:59 PM this market will resolve to “Other”.
+
+The primary resolution source will be official information from FIFA, however, a consensus of credible reporting may also be used.",106593539437032467615148553707998472829334050617128244920821917025746481184109,0.0125,0.012,0.013,0.0009999999999999992,254553.31333,7649434.765111022,2026-07-20T00:00:00Z,rest:GET,2026-07-20 00:00:00,114.0
+0x649ad05a2868343271fe82ea692031d567ca1af652e3529788933157e94aa088,will-the-minnesota-timberwolves-win-the-2026-nba-finals,Will the Minnesota Timberwolves win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Minnesota Timberwolves win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",5771676627182954113677164857547228277089396639521594262964034606220001939923,0.0195,0.019,0.02,0.0010000000000000009,253291.96205,4849620.261413929,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0xf8f63bb47b2a7c2e0c1be3cedf4075079b11c07476d76a9469065b0c4791961a,will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup,Will the Colorado Avalanche win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Colorado Avalanche win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",101738487887518832481587379955535423775326921556438741919099866785354159699479,0.203,0.2,0.206,0.005999999999999978,233092.1258,13314586.128045036,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73,will-the-san-antonio-spurs-win-the-2026-nba-finals,Will the San Antonio Spurs win the 2026 NBA Finals?,"This market will resolve to “Yes” if the San Antonio Spurs win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",102227184035967850089766981958743064457339118173548431660886438726896222843254,0.155,0.154,0.156,0.0020000000000000018,226545.71859,5884331.570668783,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x543da007c2f149346cf9f9f21021f1b2e10c46c78fcd0c9297c0c21f10c94626,will-the-los-angeles-clippers-win-the-2026-nba-finals,Will the Los Angeles Clippers win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Los Angeles Clippers win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",80136419076132148090526858778468252473966514781048966836641001333641477735657,0.0185,0.018,0.019,0.0010000000000000009,185601.76572,11309645.690442974,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x3cec1aa0f2496c59cfcd2fd1270ce798e2d7de14ea55d6fdc747cc814a4b9262,will-the-chicago-blackhawks-win-the-2026-nhl-stanley-cup,Will the Chicago Blackhawks win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Chicago Blackhawks win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",69891043446226159898410642325443071680872661606424627368536022455419261707912,0.0015,0.001,0.002,0.001,183274.52649,1559577.1192150025,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x48dd35aba75f4ffb52d3d19e6665925512e6462ba25232536aa1e7c5ad3dad7b,will-the-seattle-kraken-win-the-2026-nhl-stanley-cup,Will the Seattle Kraken win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Seattle Kraken win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",93578935246439858671952440209676574631482293371193006735950832216315542606620,0.004,0.003,0.005,0.002,177250.99351,889819.7256529988,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xa467b14d51f01b957109d9cbb1d6c124fab2a089d52ed8f471d23c2812e743b7,xi-jinping-out-before-2027,Xi Jinping out before 2027?,"This market will resolve to ""Yes"" if China's General Secretary of the Communist Party, Xi Jinping, is removed from power for any length of time between July 3, 2025, and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+CCP General Secretary Xi Jinping will be considered removed from power if he announces his resignation from his role as General Secretary, or is otherwise dismissed, detained, disqualified, or otherwise loses his position or is prevented from fulfilling his duties as General Secretary within this market's timeframe.
+
+The primary resolution source for this market will be a consensus of credible reporting.",32338220190071351435772801779725302244575775216413325951443816017994629993401,0.086,0.085,0.087,0.001999999999999988,169729.40596,7536603.862496688,2026-12-31T00:00:00Z,rest:GET,2026-12-31 00:00:00,278.0
+0xbdd688664b4f3cf7ec4ec011607934fe8ae720c08353fc14a6e9dfbf6bbcf11a,will-the-tampa-bay-lightning-win-the-2026-nhl-stanley-cup,Will the Tampa Bay Lightning win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Tampa Bay Lightning win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",35573117698117780238142713946749692621043319879346349609080985768472429209643,0.14200000000000002,0.14,0.144,0.003999999999999976,163538.66916,770781.85324599,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xd8c3fff562711af557abca5e7367dbb892b1d79419b039b6f185e49f21ec6f71,will-italy-qualify-for-the-2026-fifa-world-cup,Will Italy qualify for the 2026 FIFA World Cup?,"This is a market on which teams will qualify for the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to qualify for the FIFA World Cup based on the rules of FIFA (e.g. they cannot reach the required number of points to advance from its group or qualify for playoffs), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or the qualifying stage has not been completed by September 30, 2026, 11:59 PM this market will resolve to “No”.
+
+The resolution source for this market will be FIFA.  (https://www.fifa.com/en/tournaments/mens/worldcup).",21296624965887450804742516563526632324551397901259017139941826024484477821625,0.775,0.77,0.78,0.010000000000000009,154255.6111,329967.27234999795,2026-04-12T00:00:00Z,rest:GET,2026-04-12 00:00:00,15.0
+0x9a3436e94742acc7049aa0ff10992dc1c6a574535c3150ea157b7631cad83e2c,will-the-san-jose-sharks-win-the-2026-nhl-stanley-cup,Will the San Jose Sharks win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the San Jose Sharks win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",84105030255296194000685400984047343200505768293107751790364245140894647606509,0.004,0.003,0.005,0.002,150549.7858,744848.5942989987,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xceb5e0c99a9195da148d79693f3c6819d44d4d3d7e5be77931e174a3eebe4a85,will-the-anaheim-ducks-win-the-2026-nhl-stanley-cup,Will the Anaheim Ducks win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Anaheim Ducks win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",1755198236548058730692725634969806667163093356894670716555961840777456036471,0.0265,0.026,0.027,0.0010000000000000009,141777.41098,675469.5766319991,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x08fa7d350c801391e7ec81d0da90f1fb05ec365f98d16d27e6d64a18d7118973,will-the-washington-capitals-win-the-2026-nhl-stanley-cup,Will the Washington Capitals win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Washington Capitals win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",89607539467374084618016881443767018676837500055609025995679802231807669451541,0.0025,0.002,0.003,0.001,141012.86412,934174.3068290008,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xc61a442adb770e35e193973c4fc1e16b219490028b792257aa5cb46619d5d977,will-the-toronto-maple-leafs-win-the-2026-nhl-stanley-cup,Will the Toronto Maple Leafs win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Toronto Maple Leafs win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",32761305560497515266298907010603238583784271883422104419001315861857080693737,0.0015,0.001,0.002,0.001,139698.54467,1274486.1983489995,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xfdc1041ba84bfd8f741eee0bdafce8b1887626c83afd017d18ee9b1f77008b9f,will-the-utah-mammoth-win-the-2026-nhl-stanley-cup,Will the Utah Mammoth win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Utah Mammoth win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",77381084121703585434442737895792916741546405992903866299069398776973629407962,0.0225,0.022,0.023,0.0010000000000000009,136339.24555,725182.3832279971,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x7014b40f62a559be0a0abd2bf1ca1ef16e44674b2c505bb5243c752f2e0d351f,will-the-detroit-red-wings-win-the-2026-nhl-stanley-cup,Will the Detroit Red Wings win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Detroit Red Wings win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",105820657025478857015993206354412568572835231572443865502882842764049428172501,0.0085,0.008,0.009,0.0009999999999999992,135988.73144,742526.2671070017,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x3b6cdd4f72cef7f29ff7e054444095564dc582266b7230be3c2b5f194d89f37d,will-the-los-angeles-kings-win-the-2026-nhl-stanley-cup,Will the Los Angeles Kings win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Los Angeles Kings win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",75497690502531380056390405612014900797768656980504946546336044296003833597355,0.0085,0.008,0.009,0.0009999999999999992,135908.84757,6453388.114071934,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0,will-the-carolina-hurricanes-win-the-2026-nhl-stanley-cup,Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Carolina Hurricanes win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",79397003434468715775480922117285203652110865791390656395657957066470661722480,0.11499999999999999,0.11,0.12,0.009999999999999995,135267.4348,230739.1932450013,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xd66cbb60c333c2eed61717370755c18bc7e494fed90cb507cd9b49c77100951d,will-the-philadelphia-flyers-win-the-2026-nhl-stanley-cup,Will the Philadelphia Flyers win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Philadelphia Flyers win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",89876650777103845660381011502618435196005005316371719080379226306122186643898,0.002,0.001,0.003,0.002,132636.08212,870978.303516003,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x82d8c535c037a779ffbd2eb94704b093a5341350b49ca68128fc1c16a0901e4a,will-the-boston-bruins-win-the-2026-nhl-stanley-cup,Will the Boston Bruins win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Boston Bruins win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",96156230578747105661476819749931380321917772151891667564189808442987244872145,0.013999999999999999,0.013,0.015,0.002,129422.86433,870079.1444859987,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xa8b42e207814d2844997523ba83e708b5bfe19cf5d2203325e4eb3ed459a9ded,will-the-winnipeg-jets-win-the-2026-nhl-stanley-cup,Will the Winnipeg Jets win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Winnipeg Jets win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",99302435322944813052105841164428761175935099146724842887228853211763294863784,0.002,0.001,0.003,0.002,129326.07671,791319.6936029991,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x13e1cc703a120883a709d3bb29707097952845d61ca6793ea2b4328bae2a7451,will-the-boston-celtics-win-the-2026-nba-finals,Will the Boston Celtics win the 2026 NBA Finals?,"This market will resolve to “Yes” if the Boston Celtics win the 2026 NBA Finals. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NBA Finals based off the rules of the NBA.
+
+The resolution source for this market will be information from the NBA.",98951343420969493497594761179562691809954416596888138302255086663562042936451,0.1145,0.113,0.116,0.0030000000000000027,125401.44045,5392044.458258076,2026-07-01T00:00:00Z,rest:GET,2026-07-01 00:00:00,95.0
+0x41d6f86edc88c14aa83373e72b4c26a403b159208f8973c093b928fe16d72930,will-the-calgary-flames-win-the-2026-nhl-stanley-cup,Will the Calgary Flames win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Calgary Flames win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",54811975275387163364864047298373893386525828579003336506827163723659384966681,0.001,,0.001,,125322.30179,1165420.6280340028,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x9e54856d758cd7de25b75c97273a38d711642f16eacad57e61982028f2791206,will-the-pittsburgh-penguins-win-the-2026-nhl-stanley-cup,Will the Pittsburgh Penguins win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Pittsburgh Penguins win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",8851645587670338204652278122922654341568030658294043049798551516787478126093,0.0275,0.027,0.028,0.0010000000000000009,117912.17269,965272.9183539994,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xd01354f96db7fc2184cc34ac463a80cc65e7ff5de64c8a2f3e07e8433317d75f,will-the-florida-panthers-win-the-2026-nhl-stanley-cup,Will the Florida Panthers win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Florida Panthers win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",80061984358752599784693370376997592727558961379567449932508186368496986212029,0.0025,0.002,0.003,0.001,111508.01998,1213349.5454729956,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x54cb2293de4ce01c85b62b0c43911a36614c8558b02b70703326ca4b938a83d4,will-the-nashville-predators-win-the-2026-nhl-stanley-cup,Will the Nashville Predators win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Nashville Predators win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",98049742009801855771548452791429416975406795240797895877767309269050997573962,0.0045000000000000005,0.004,0.005,0.001,111093.87072,1536990.504321001,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x52847ca1413b76a5570b97c0c432e38dbe61b0140f9d45e912604591b08f6fca,will-the-montreal-canadiens-win-the-2026-nhl-stanley-cup,Will the Montreal Canadiens win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Montreal Canadiens win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",114248353339288476395516704859280406139740194553592209059241667781908210476009,0.036000000000000004,0.034,0.038,0.003999999999999997,110755.85571,1066896.651338001,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x89389a6b1439856a8d366234c795d72865c927a1aa3cf9d4cc04a3a400defde1,will-the-vegas-golden-knights-win-the-2026-nhl-stanley-cup,Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Vegas Golden Knights win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",68803485030073596962715540294172682212192134248970512695855620898253368033218,0.0495,0.048,0.051,0.0029999999999999957,108796.01315,1208860.0860519994,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x7b49b9bacb5f435bc10f3b100ff59e2fdd346f7f92a9001881bc9825a0af0f11,will-china-invades-taiwan-before-gta-vi-716,Will China invades Taiwan before GTA VI?,"This market will resolve to ""Yes"" if China commences a military offensive intended to establish control over any portion of the Republic of China (Taiwan) before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to ""No"".
+
+If neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.
+
+For the purposes of this market, ""release"" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.
+
+The resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.
+
+An announcement of Trump's resignation/removal, or a scheduled departure from office due to the outcome of an election will not alone qualify.
+
+Territory under the administration of the Republic of China including any inhabited islands will qualify, however uninhabited islands will not qualify.
+
+The resolution source for China invading Taiwan will be will be official confirmation by China, Taiwan, the United Nations, or any permanent member of the UN Security Council, however a consensus of credible reporting will also be use
+",21695138873211375451055566770107682325494206727818897067665810321709249824909,0.515,0.51,0.52,0.010000000000000009,108042.3937,1517394.002123041,2026-07-31T12:00:00Z,rest:GET,2026-07-31 12:00:00,125.0
+0x99d0ce2ab858154ba1ec511863dae5a9fe41731457022cf2ef8b1024cf97405a,will-the-new-york-islanders-win-the-2026-nhl-stanley-cup,Will the New York Islanders win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the New York Islanders win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",100198467481990754389879542132900146141512359428605143337944632886324000145723,0.013999999999999999,0.013,0.015,0.002,107411.74901,4177721.0083149984,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x0d082a85f48a5226b1205acdb6e95ead2fe373acabcf6c471f5895f86f42a276,will-the-minnesota-wild-win-the-2026-nhl-stanley-cup,Will the Minnesota Wild win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Minnesota Wild win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",52393600221905688380980180540161090876971894580569515967716227210336633318551,0.044,0.043,0.045,0.0020000000000000018,106646.992,8326040.530940003,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xbefea6668e49e328db4d5c792bc15cea309bbc06101dfd6ced1e0556ad3ea301,will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup,Will the Buffalo Sabres win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Buffalo Sabres win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",86989765000750155883097827320609652927052275812009422751609183177638176999827,0.0595,0.056,0.063,0.006999999999999999,103966.04778,2740419.8152109967,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x4c317ee82d81e0a49aa9862a8c2d876fee322064acf02cd8e1346fbed36083e8,will-the-columbus-blue-jackets-win-the-2026-nhl-stanley-cup,Will the Columbus Blue Jackets win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Columbus Blue Jackets win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",6772099324721707224715070437205709623671146843087680984461675764599992554029,0.0245,0.024,0.025,0.0010000000000000009,99807.63341,676204.6533540002,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x139b893a7ae21eaec72e887ba88910831944b4662512428c122c4ad0a5c125ac,will-the-ottawa-senators-win-the-2026-nhl-stanley-cup,Will the Ottawa Senators win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Ottawa Senators win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",52122163926965666340769912737036425235018536048643947600257470162508745804215,0.031,0.03,0.032,0.0020000000000000018,98003.78816,819239.7118480023,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x1e03cd6255e4dec87c7c85d2267b7b4104beba48abf50e2fc15acabbf233b308,will-the-new-jersey-devils-win-the-2026-nhl-stanley-cup,Will the New Jersey Devils win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the New Jersey Devils win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",83053136095375464518484635535538303979818736083252284786624282549893531568449,0.0015,0.001,0.002,0.001,90154.84098,932147.957165002,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x1c36595d8a1726549acca61c5eb8c9173de87c780ee1cee660ceb5b517530ab7,will-the-st-louis-blues-win-the-2026-nhl-stanley-cup,Will the St. Louis Blues win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the St. Louis Blues win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",95906133471794193454744901623691925557845709993144309634376654892470898743791,0.002,,0.002,,87687.23375,1017609.716091002,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x44887f53abbfe7531b1384420b185a5f10ee42a4e6c9441d5883abd4f3c1e5ef,will-the-dallas-stars-win-the-2026-nhl-stanley-cup,Will the Dallas Stars win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Dallas Stars win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",17581551835670188629115760053820570516688258623733228909199148495084738589631,0.08499999999999999,0.083,0.087,0.00399999999999999,83523.82995,898485.6570339974,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x4a67e1270a2ed86be8fc524b6114640e41b0c56303ecaa9584deacd62402650a,will-the-edmonton-oilers-win-the-2026-nhl-stanley-cup,Will the Edmonton Oilers win the 2026 NHL Stanley Cup?,"This market will resolve to “Yes” if the Edmonton Oilers win the 2026 NHL Stanley Cup. Otherwise, this market will resolve to “No”.
+
+This market will resolve to “No” if it becomes impossible for this team to win the 2026 NHL Stanley Cup based off the rules of the NHL.
+
+The resolution source for this market will be information from the NHL.
+",26994926807159308505531352241892510362185630293975165092400997815774500370214,0.055,0.05,0.06,0.009999999999999995,81382.3864,409577.27838900185,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0x9c1a953fe92c8357f1b646ba25d983aa83e90c525992db14fb726fa895cb5763,russia-ukraine-ceasefire-before-gta-vi-554,Russia-Ukraine Ceasefire before GTA VI?,"This market will resolve to ""Yes"" if  if there is an official ceasefire agreement, defined as a publicly announced and mutually agreed halt in military engagement, between Russia and Ukraine before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to ""No"".
+
+If neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.
+
+For the purposes of this market, ""release"" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.
+
+The resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.
+
+Only ceasefires which constitute a general pause in the conflict will qualify. Ceasefires which only apply to energy infrastructure, the Black Sea, or other similar agreements will not qualify.
+
+Any form of informal agreement will not be considered an official ceasefire. Humanitarian pauses will not count toward the resolution of this market.
+
+The resolution for a ceasefire will be based on official announcements from both Russia and Ukraine; however, a wide consensus of credible media reporting stating an official ceasefire agreement between Russia and Ukraine has been reached will suffice.
+",8501497159083948713316135768103773293754490207922884688769443031624417212426,0.535,0.53,0.54,0.010000000000000009,70455.8551,1405668.013513997,2026-07-31T12:00:00Z,rest:GET,2026-07-31 12:00:00,125.0
+0xdb68062324c27327e9cd4b21b1dd0deadbc4b860abb8c076b9ba3ed4652ced13,megaeth-market-cap-fdv-6b-one-day-after-launch-365-559-334-815-776-488-224-766,MegaETH market cap (FDV) >$6B one day after launch?,"This market will resolve to ""Yes"" if the Fully Diluted Valuation of MegaETH's token is greater than $6,000,000,000 1 day after launch. Otherwise, the market will resolve to ""No.""
+
+For the purposes of this market ""locked"" tokens or non-swappable tokens will not be considered a launch.
+
+""1 day after launch"" is defined as 24 hours after launch. The resolution source for this market is the most liquid price source available. If MegaETH doesn't launch a token by June 30, 2026, 11:59 PM ET, this market will resolve to ""No.""",78059086946243166298250434231742381590921423205138738331803802527161013528631,0.023,0.022,0.024,0.0020000000000000018,66165.62698,2266180.230254021,2026-06-30T00:00:00Z,rest:GET,2026-06-30 00:00:00,94.0
+0xfc6260666d020a912a87d9000eff5116d2adfb8c30aba543427a4c1f1411f1a0,megaeth-market-cap-fdv-2b-one-day-after-launch-738-867-649-272-765-733,MegaETH market cap (FDV) >$2B one day after launch?,"This market will resolve to ""Yes"" if the Fully Diluted Valuation of MegaETH's token is greater than $2,000,000,000 1 day after launch. Otherwise, the market will resolve to ""No.""
+
+For the purposes of this market ""locked"" tokens or non-swappable tokens will not be considered a launch.
+
+""1 day after launch"" is defined as 24 hours after launch. The resolution source for this market is the most liquid price source available. If MegaETH doesn't launch a token by June 30, 2026, 11:59 PM ET, this market will resolve to ""No.""",57301498276970257025109591078431189727442302532145853906375186182281603517458,0.11499999999999999,0.11,0.12,0.009999999999999995,66155.4254,5669251.393183066,2025-12-31T00:00:00Z,rest:GET,2025-12-31 00:00:00,-87.0
+0x84f8b70331323c2fba97d7ceaa9a35fb645a0770d0dbff169d07f24f376766e9,trump-out-as-president-before-gta-vi-846,Trump out as President before GTA VI?,"This market will resolve to ""Yes"" if Donald Trump ceases to be the President of the U.S. for any period of time before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to ""No"".
+
+If neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.
+
+For the purposes of this market, ""release"" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.
+
+The resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.
+
+An announcement of Trump's resignation/removal, or a scheduled departure from office due to the outcome of an election will not alone qualify.
+
+Only permanent removal from office will qualify for resolution. Temporary removals, such as temporary invocation of the 25th Amendment, will not count.
+
+The resolution source for Trump leaving the presidency will be a consensus of credible reporting.
+",108999723207897941876452935557011604067917389120996960199512481363958770540884,0.535,0.53,0.54,0.010000000000000009,63315.1297,560085.582130008,2026-07-31T12:00:00Z,rest:GET,2026-07-31 12:00:00,125.0
+0xcccb7e7613a087c132b69cbf3a02bece3fdcb824c1da54ae79acc8d4a562d902,gta-vi-released-before-june-2026,GTA VI released before June 2026?,"This market will resolve to ""Yes"" if it Grand Theft Auto VI is officially released in the US by May 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+For the purposes of this market, ""release"" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.
+
+The resolution source will be official information from Rockstar Games or its parent company, Take-Two Interactive.",8441400852834915183759801017793514978104486628517653995211751018945988243154,0.0215,0.021,0.022,0.0009999999999999974,47131.81449,12938923.343908995,2026-05-31T12:00:00Z,rest:GET,2026-05-31 12:00:00,64.0
+0x1fad72fae204143ff1c3035e99e7c0f65ea8d5cd9bd1070987bd1a3316f772be,new-rhianna-album-before-gta-vi-926,New Rihanna Album before GTA VI?,"This market will resolve to ""Yes"" if Rihanna officially releases a new album before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to ""No"".
+
+If neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.
+
+For the purposes of this market, ""release"" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.
+
+The resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.
+
+Officially released means that a newly released album is officially available for download or streaming (not including live events) by the resolution date.
+
+Re-releases, deluxe editions, compilations, or greatest hits albums will not count, unless they contain at least 50% tracks that have never been officially released in any format prior to the album's release.
+
+The resolution source for the album release will be any official streaming or download site, e.g. Apple Music or Spotify.",98022490269692409998126496127597032490334070080325855126491859374983463996227,0.63,0.62,0.64,0.020000000000000018,30561.3681,675867.620178002,2026-07-31T12:00:00Z,rest:GET,2026-07-31 12:00:00,125.0
+0x50ddb9cd80d5c271664a2ebb7fcaed1d0a148d82c8e8d314d830f75a944c3dcc,new-playboi-carti-album-before-gta-vi-421,New Playboi Carti Album before GTA VI?,"This market will resolve to ""Yes"" if Playboi Carti officially releases a new album before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to ""No"".
+
+If neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.
+
+For the purposes of this market, ""release"" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.
+
+The resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.
+
+Officially released means that a newly released album is officially available for download or streaming (not including live events) by the resolution date.
+
+Re-releases, deluxe editions, compilations, or greatest hits albums will not count, unless they contain at least 50% tracks that have never been officially released in any format prior to the album's release.
+
+The resolution source for the album release will be any official streaming or download site, e.g. Apple Music or Spotify.",88275040060084773376557187972215267513049848642895776801789297917961077894224,0.65,0.64,0.66,0.020000000000000018,25338.0014,710976.7449199958,2026-07-31T12:00:00Z,rest:GET,2026-07-31 12:00:00,125.0
+0xb48621f7eba07b0a3eeabc6afb09ae42490239903997b9d412b0f69aeb040c8b,bitboy-convicted,BitBoy convicted?,"BitBoy was recently arrested due to a warrant issued for threatening communications he sent to a Judge. You can read more about that here: https://www.binance.com/en/square/post/22059661159362
+
+This market will resolve to ""Yes"" if BitBoy (Ben Armstrong) is convicted of any charges related to the emails he sent to Judge Kimberly Childs, by March 31, 2026 ET. Otherwise, this market will resolve to ""No"".
+
+Convictions must be for criminal charges.
+
+If the case is completely dropped for whatever reason, due to a plea agreement without an admission of guilt, a dismissal, or any other situation occurs in which no judgement is rendered or will be rendered by the court, this market will resolve to ""No"".
+
+Once an individual is convicted it qualifies for an immediate ""Yes"" resolution, regardless of later appeals, etc. This market will resolve based on the first conviction in a qualifying case.
+
+The primary resolution source will be official court records, however a consensus of credible reporting will also be used.",75467129615908319583031474642658885479135630431889036121812713428992454630178,0.0435,0.041,0.046,0.0049999999999999975,14238.83523,277507.25580299733,2026-03-31T12:00:00Z,rest:GET,2026-03-31 12:00:00,3.0
+0xbd9068da0f92022747bdad7a7d522c2f8bec81f0eb61c233eb94b301b3b4c62b,will-poland-qualify-for-the-2026-fifa-world-cup,Will Poland qualify for the 2026 FIFA World Cup?,"This is a market on which teams will qualify for the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to qualify for the FIFA World Cup based on the rules of FIFA (e.g. they cannot reach the required number of points to advance from its group or qualify for playoffs), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or the qualifying stage has not been completed by September 30, 2026, 11:59 PM this market will resolve to “No”.
+
+The resolution source for this market will be FIFA.  (https://www.fifa.com/en/tournaments/mens/worldcup).",107726477169398763643300346937218981578070170096670253959564188912978677384086,0.365,0.36,0.37,0.010000000000000009,14231.6361,492145.7523350037,2026-04-12T00:00:00Z,rest:GET,2026-04-12 00:00:00,15.0
+0x61eb9153c67924f13fd102a324be284f335672ea1fdb07d48af27a8cd03536be,will-sweden-qualify-for-the-2026-fifa-world-cup,Will Sweden qualify for the 2026 FIFA World Cup?,"This is a market on which teams will qualify for the 2026 FIFA World Cup.
+
+If at any point it becomes impossible for this team to qualify for the FIFA World Cup based on the rules of FIFA (e.g. they cannot reach the required number of points to advance from its group or qualify for playoffs), this market will resolve immediately to “No”.
+
+If the 2026 FIFA World Cup is permanently canceled or the qualifying stage has not been completed by September 30, 2026, 11:59 PM this market will resolve to “No”.
+
+The resolution source for this market will be FIFA.  (https://www.fifa.com/en/tournaments/mens/worldcup).",110029858924336699886026160037881747408385035792394181068515946764057130818147,0.635,0.63,0.64,0.010000000000000009,9339.5762,143505.02886199983,2026-04-12T00:00:00Z,rest:GET,2026-04-12 00:00:00,15.0
+0xe459d1b598da754c9fd5fc155b6efe3a144aa80abbc7d041fce7d35d903d3c8e,will-megaeth-perform-an-airdrop-by-june-30-143-229-513-574-212-254,Will MegaETH perform an airdrop by June 30? ,"This market will resolve to ""Yes"" if MegaETH launches a token and performs an airdrop by June 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No"".
+
+For the purposes of this market ""locked"" tokens or non-swappable tokens will not suffice to resolve this market to ""Yes"". Airdrops of NFTs will not qualify.
+
+The primary resolution source for this market is on-chain information and official information from MegaETH, however a consensus of credible reporting will also be used.",96797656031191119176188453471637044475353637081608890153571023284371119486681,0.437,0.424,0.45,0.026000000000000023,8117.59877,964626.1295040016,2026-02-01T05:00:00Z,rest:GET,2026-02-01 05:00:00,-55.0
+0xe2b48e3b44de9658ee9c8b37354301763e33c0b502fd966839d644b4c0a9dea8,will-harvey-weinstein-be-sentenced-to-less-than-5-years-in-prison,Will Harvey Weinstein be sentenced to less than 5 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",77166477669007661974218999697956080000161736671391584414287437514245884953047,0.0975,0.094,0.101,0.007000000000000006,6288.92805,49140.95789099997,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87.0
+0xe9674aadfabfa7171bcee4e38b66f1a7d7e0af538d3718301e7b3cf111e9b5dd,will-openai-launch-a-new-consumer-hardware-product-by-march-31-2026,"Will OpenAI launch a new consumer hardware product by March 31, 2026?","This market will resolve to ""Yes"" if OpenAI publicly announces and launches a new consumer hardware product by March 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to ""No"". 
+
+A ""consumer hardware product"" is defined as a physical device intended for direct use by individual consumers, rather than enterprise or developer tools. The product must be newly introduced and not a rebrand, update, or iteration of any previously released device.
+
+Examples that would qualify include an AI-powered wearable, smart home assistant, or augmented reality device. Developer tools, AI chips, or servers marketed exclusively for enterprise use would not qualify.
+
+The resolution source will be official information from OpenAI.",69497259499564904327437411778598106057943098225196700538590387556685558432215,0.015,0.011,0.019,0.008,5643.28968,171383.9918940001,,rest:GET,,
+0x2499928ffbe6022444543dcd940075259cecb5e41e346284b578cb64e1404d32,will-harvey-weinstein-be-sentenced-to-more-than-30-years-in-prison,Will Harvey Weinstein be sentenced to more than 30 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",87036266705700330884624690101790543034325645582506946990660049003915176778714,0.0685,0.033,0.104,0.071,5466.16073,34936.155650000066,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87.0
+0x3209617364a0d598435806b59d0d056b606022dc9028c466ad7912df94fc170c,will-harvey-weinstein-be-sentenced-to-between-5-and-10-years-in-prison,Will Harvey Weinstein be sentenced to between 5 and 10 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",8585617872562550075367684165842985213222082790621129799520234539666057750015,0.089,0.084,0.094,0.009999999999999995,1713.70371,35319.708130999985,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87.0
+0xdee5db5410b362783a1405b66b9aa08a7d050ae1f99e8da85b9d1ae7962dad3b,will-harvey-weinstein-be-sentenced-to-between-20-and-30-years-in-prison,Will Harvey Weinstein be sentenced to between 20 and 30 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",40689385937970031985272152180777653235879119412231903065658922913468759560353,0.21450000000000002,0.199,0.23,0.031,1548.57206,151398.94177400027,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87.0
+0xf398b0e5016eeaee9b0885ed84012b6dc91269ac10d3b59d60722859c2e30b2f,will-harvey-weinstein-be-sentenced-to-no-prison-time,Will Harvey Weinstein be sentenced to no prison time?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",24327803960645909378149041810697343640752122608192367041827900158592826352552,0.2915,0.263,0.32,0.056999999999999995,1144.12205,292499.5491460002,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87.0
+0x3d495a3e05eaffe438bb1c2ab97ed57a79b0a6ab18a2ca6fa5b448e20ce70082,will-harvey-weinstein-be-sentenced-to-between-10-and-20-years-in-prison,Will Harvey Weinstein be sentenced to between 10 and 20 years in prison?,"This market will resolve according to the prison sentence, if any, imposed on Harvey Weinstein as part of his ongoing New York retrial (People of the State of New York v. Harvey Weinstein) by July 31, 2026, 11:59 PM ET.
+
+This market will resolve immediately based on the first sentence rendered in this case, regardless of any appeals. If Weinstein is found not guilty, there is a mistrial, or if the first sentencing does not include any jail or prison time, this market will resolve to ""No Prison Time.""
+
+If no sentencing takes place by July 31, 2026, 11:59 PM ET, this market will also resolve to ""No Prison Time.""
+
+If the sentence falls exactly between two brackets, then this market will resolve to the higher range bracket.
+
+For the purposes of this market, it does not matter whether the sentence is concurrent or consecutive to any existing sentence Weinstein is already serving. The market will resolve based on the total prison sentence imposed in this case.
+
+The primary resolution source for this market will be official information from the New York court system or other involved U.S. government sources; however, a consensus of credible reporting may also be used.",15540133404064485946536607974212890170021691204987131841181394872998839987451,0.176,0.11,0.242,0.132,328.79212,121076.548094,2025-12-31T12:00:00Z,rest:GET,2025-12-31 12:00:00,-87.0
