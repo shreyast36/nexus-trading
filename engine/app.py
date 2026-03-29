@@ -2192,7 +2192,7 @@ st.markdown(f"""
 # ═══════════════════════════════════════════════════════════════════════════════
 # SECTION 1 — DECISION DETAILS (Collapsible)
 # ═══════════════════════════════════════════════════════════════════════════════
-with st.expander("◆ DECISION DETAILS", expanded=True):
+with st.expander("DECISION DETAILS", expanded=True):
     cls = "nx-action-long" if action == "LONG" else "nx-action-short" if action == "SHORT" else "nx-action-flat"
     bar_clr = GREEN if size_pct > 60 else AMBER if size_pct > 30 else RED
     zone = dec['risk_zone']
@@ -2405,7 +2405,7 @@ with col_breakdown:
 # ═════════════════════════════════════════════════════════════════════════════
 # SECTION 2 — PRICE CHART (Collapsible)
 # ═════════════════════════════════════════════════════════════════════════════
-with st.expander("◆ PRICE CHART", expanded=True):
+with st.expander("PRICE CHART", expanded=True):
     if pdf is not None and len(pdf) > 0:
         fig = make_subplots(rows=3, cols=1, shared_xaxes=True,
                             vertical_spacing=0.04,
@@ -2467,7 +2467,7 @@ with st.expander("◆ PRICE CHART", expanded=True):
 # ═════════════════════════════════════════════════════════════════════════════
 # SECTION 3 — SIGNAL SOURCES (Collapsible)
 # ═════════════════════════════════════════════════════════════════════════════
-with st.expander("◆ SIGNAL SOURCES", expanded=False):
+with st.expander("SIGNAL SOURCES", expanded=False):
     col_tech, col_pm, col_news = st.columns([1.2, 1, 1])
 
     # ── Technical Analysis (First - most important) ──
@@ -2547,7 +2547,7 @@ with st.expander("◆ SIGNAL SOURCES", expanded=False):
 _has_extended = d.get('backtest') is not None
 
 if _has_extended:
-    with st.expander("◆ EXTENDED ANALYSIS", expanded=False):
+    with st.expander("EXTENDED ANALYSIS", expanded=False):
         _tab_bt, _tab_sim, _tab_scen, _tab_diag = st.tabs([
             "📊 BACKTEST", "🔄 SIMULATOR", "📈 SCENARIOS", "🔧 DIAGNOSTICS"
         ])
