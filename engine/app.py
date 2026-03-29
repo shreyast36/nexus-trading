@@ -963,6 +963,19 @@ Rule-based engine · No AI predictions · No financial advice</div>
 if st.session_state.get('entered') == 'transitioning':
     import time as _time
 
+    # Ticker data for flowing banner
+    _sim_prices = {
+        'BTC': (87432.15, +2.4), 'ETH': (3241.78, -0.8), 'SOL': (178.92, +5.1),
+        'BNB': (612.30, +1.2), 'XRP': (2.41, -1.5), 'ADA': (0.72, +3.3),
+        'AVAX': (38.15, -2.1), 'DOT': (8.92, +0.6), 'DOGE': (0.187, +4.7),
+        'LINK': (18.45, +1.8), 'LTC': (94.20, -0.3), 'UNI': (12.85, +2.9),
+    }
+    _ticker_html = " &nbsp;&nbsp;●&nbsp;&nbsp; ".join(
+        f"<span style='color:#eef2f7;font-weight:600;'>{sym}</span> "
+        f"<span style='color:{GREEN if chg>0 else RED};'>${p:,.2f} ({chg:+.1f}%)</span>"
+        for sym,(p,chg) in _sim_prices.items()
+    )
+
     # Kill ALL Streamlit chrome — pure black canvas
     st.markdown(f"""
 <style>
@@ -976,6 +989,10 @@ html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!importan
 .stApp>div>div{{background:#020408!important;}}
 
 /* ── KEYFRAMES ── */
+@keyframes tickerFlow {{
+  0% {{ transform: translateX(0); }}
+  100% {{ transform: translateX(-50%); }}
+}}
 @keyframes gridPerspective {{
   0% {{ transform:perspective(400px) rotateX(65deg) scale(3); opacity:0; }}
   30% {{ opacity:0.12; }}
@@ -1120,7 +1137,7 @@ html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!importan
 .tx-progress-bar {{
   height:100%;border-radius:4px;
   background:linear-gradient(90deg,{CYAN},{GREEN});
-  animation:progressFill 3s ease-out forwards;
+  animation:progressFill 1.5s ease-out forwards;
   box-shadow:0 0 15px rgba(0,229,255,0.5);
 }}
 .tx-progress-label {{
@@ -1157,12 +1174,12 @@ html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!importan
 
   <!-- boot sequence -->
   <div class='tx-boot'>
-    <div class='tx-boot-line' style='animation-delay:0.5s;color:{GREEN};'>▸ OPERATOR AUTHENTICATED</div>
-    <div class='tx-boot-line' style='animation-delay:0.9s;color:{GREEN};'>▸ YAHOO FINANCE STREAM ── CONNECTED</div>
-    <div class='tx-boot-line' style='animation-delay:1.3s;color:{GREEN};'>▸ POLYMARKET GAMMA API ── CONNECTED</div>
-    <div class='tx-boot-line' style='animation-delay:1.7s;color:{GREEN};'>▸ RSS/VADER NLP ENGINE ── LOADED</div>
-    <div class='tx-boot-line' style='animation-delay:2.1s;color:{CYAN};'>▸ FUSION ENGINE CALIBRATED</div>
-    <div class='tx-boot-line' style='animation-delay:2.5s;color:{AMBER};font-weight:700;animation:bootLine 0.4s ease 2.5s forwards,statusGlow 0.6s ease-in-out 2.5s 3;'>▸ ALL SYSTEMS GO ── ENTERING TERMINAL</div>
+    <div class='tx-boot-line' style='animation-delay:0.2s;color:{GREEN};'>▸ OPERATOR AUTHENTICATED</div>
+    <div class='tx-boot-line' style='animation-delay:0.4s;color:{GREEN};'>▸ YAHOO FINANCE STREAM ── CONNECTED</div>
+    <div class='tx-boot-line' style='animation-delay:0.6s;color:{GREEN};'>▸ POLYMARKET GAMMA API ── CONNECTED</div>
+    <div class='tx-boot-line' style='animation-delay:0.8s;color:{GREEN};'>▸ RSS/VADER NLP ENGINE ── LOADED</div>
+    <div class='tx-boot-line' style='animation-delay:1.0s;color:{CYAN};'>▸ FUSION ENGINE CALIBRATED</div>
+    <div class='tx-boot-line' style='animation-delay:1.2s;color:{AMBER};font-weight:700;animation:bootLine 0.3s ease 1.2s forwards,statusGlow 0.4s ease-in-out 1.2s 2;'>▸ ALL SYSTEMS GO ── ENTERING TERMINAL</div>
   </div>
 
   <!-- progress bar -->
@@ -1191,6 +1208,13 @@ html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!importan
   <div class='tx-data-col' style='left:72%;animation-delay:0.6s;color:{GREEN};'>1<br>0<br>1<br>1<br>0<br>0<br>1<br>0<br>1<br>0</div>
   <div class='tx-data-col' style='left:85%;animation-delay:1.2s;'>0<br>1<br>1<br>0<br>1<br>0<br>0<br>1<br>0<br>1</div>
   <div class='tx-data-col' style='left:92%;animation-delay:0.3s;color:{AMBER};'>1<br>0<br>0<br>1<br>1<br>0<br>1<br>0<br>1<br>1</div>
+
+  <!-- Flowing ticker bar at bottom -->
+  <div style='position:absolute;bottom:0;left:0;right:0;height:36px;background:linear-gradient(180deg,transparent,rgba(5,8,15,0.95));overflow:hidden;border-top:1px solid rgba(0,229,255,0.15);'>
+    <div style='display:flex;animation:tickerFlow 20s linear infinite;white-space:nowrap;padding:8px 0;font-family:JetBrains Mono,monospace;font-size:0.82rem;'>
+      {_ticker_html} &nbsp;&nbsp;●&nbsp;&nbsp; {_ticker_html} &nbsp;&nbsp;●&nbsp;&nbsp; {_ticker_html}
+    </div>
+  </div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -1203,8 +1227,8 @@ try {
   const A = new (W.AudioContext || W.webkitAudioContext || window.AudioContext || window.webkitAudioContext)();
   A.resume();
 
-  // Deep bass drone (filtered noise)
-  const droneLen = 3.2;
+  // Deep bass drone (filtered noise) - shorter
+  const droneLen = 1.6;
   const nBuf = A.createBuffer(1, A.sampleRate * droneLen, A.sampleRate);
   const nD = nBuf.getChannelData(0);
   for (let i = 0; i < nD.length; i++) nD[i] = Math.random() * 2 - 1;
@@ -1214,27 +1238,27 @@ try {
   droneF.type = 'lowpass'; droneF.frequency.value = 90;
   const droneG = A.createGain();
   droneG.gain.setValueAtTime(0, A.currentTime);
-  droneG.gain.linearRampToValueAtTime(0.12, A.currentTime + 0.4);
-  droneG.gain.linearRampToValueAtTime(0.06, A.currentTime + 2.5);
+  droneG.gain.linearRampToValueAtTime(0.10, A.currentTime + 0.2);
+  droneG.gain.linearRampToValueAtTime(0.05, A.currentTime + 1.2);
   droneG.gain.linearRampToValueAtTime(0, A.currentTime + droneLen);
   drone.connect(droneF); droneF.connect(droneG); droneG.connect(A.destination);
   drone.start();
 
-  // Rising synth sweep
+  // Rising synth sweep - faster
   const sweep = A.createOscillator();
   sweep.type = 'sine';
   sweep.frequency.setValueAtTime(80, A.currentTime);
-  sweep.frequency.exponentialRampToValueAtTime(800, A.currentTime + 2.8);
+  sweep.frequency.exponentialRampToValueAtTime(800, A.currentTime + 1.4);
   const sweepG = A.createGain();
   sweepG.gain.setValueAtTime(0, A.currentTime);
-  sweepG.gain.linearRampToValueAtTime(0.06, A.currentTime + 0.3);
-  sweepG.gain.linearRampToValueAtTime(0.03, A.currentTime + 2.0);
-  sweepG.gain.linearRampToValueAtTime(0, A.currentTime + 3.0);
+  sweepG.gain.linearRampToValueAtTime(0.05, A.currentTime + 0.15);
+  sweepG.gain.linearRampToValueAtTime(0.02, A.currentTime + 1.0);
+  sweepG.gain.linearRampToValueAtTime(0, A.currentTime + 1.5);
   sweep.connect(sweepG); sweepG.connect(A.destination);
-  sweep.start(); sweep.stop(A.currentTime + 3.0);
+  sweep.start(); sweep.stop(A.currentTime + 1.5);
 
-  // Boot-line beeps (staggered, matching the boot text timing)
-  const beepTimes = [0.5, 0.9, 1.3, 1.7, 2.1, 2.5];
+  // Boot-line beeps - faster timing
+  const beepTimes = [0.2, 0.4, 0.6, 0.8, 1.0, 1.2];
   const beepFreqs = [440, 523, 587, 659, 784, 1047];
   beepTimes.forEach((t, i) => {
     const o = A.createOscillator();
@@ -1242,29 +1266,29 @@ try {
     o.frequency.value = beepFreqs[i];
     const g = A.createGain();
     g.gain.setValueAtTime(0, A.currentTime + t);
-    g.gain.linearRampToValueAtTime(0.08, A.currentTime + t + 0.02);
-    g.gain.exponentialRampToValueAtTime(0.001, A.currentTime + t + 0.18);
+    g.gain.linearRampToValueAtTime(0.06, A.currentTime + t + 0.01);
+    g.gain.exponentialRampToValueAtTime(0.001, A.currentTime + t + 0.12);
     o.connect(g); g.connect(A.destination);
-    o.start(A.currentTime + t); o.stop(A.currentTime + t + 0.2);
+    o.start(A.currentTime + t); o.stop(A.currentTime + t + 0.15);
   });
 
-  // Final "ready" chord at 2.8s
+  // Final "ready" chord at 1.4s
   [523, 659, 784].forEach(f => {
     const o = A.createOscillator();
     o.type = 'sine';
     o.frequency.value = f;
     const g = A.createGain();
-    g.gain.setValueAtTime(0, A.currentTime + 2.8);
-    g.gain.linearRampToValueAtTime(0.07, A.currentTime + 2.85);
-    g.gain.exponentialRampToValueAtTime(0.001, A.currentTime + 3.4);
+    g.gain.setValueAtTime(0, A.currentTime + 1.4);
+    g.gain.linearRampToValueAtTime(0.06, A.currentTime + 1.45);
+    g.gain.exponentialRampToValueAtTime(0.001, A.currentTime + 1.8);
     o.connect(g); g.connect(A.destination);
-    o.start(A.currentTime + 2.8); o.stop(A.currentTime + 3.5);
+    o.start(A.currentTime + 1.4); o.stop(A.currentTime + 1.9);
   });
 } catch(e) {}
 </script>
 """, height=0)
 
-    _time.sleep(3.5)
+    _time.sleep(1.8)
     st.session_state.entered = True
     st.rerun()
 
