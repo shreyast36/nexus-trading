@@ -205,6 +205,8 @@ PANEL  = "#0b1120"
 BORDER = "#1a2744"
 
 # ── Modern CSS ───────────────────────────────────────────────────────────────
+st.markdown(\"\"\"<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">\"\"\", unsafe_allow_html=True)
+
 st.markdown(f"""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
@@ -244,22 +246,22 @@ h1,h2,h3,h4,h5,h6 {{
 
 /* ── staggered fly-in for dashboard sections ── */
 @keyframes flyInUp {{
-  0%   {{ opacity:0; transform:translateY(60px) scale(0.92); filter:blur(6px); }}
-  60%  {{ opacity:1; filter:blur(0); }}
+  0%   {{ opacity:0; transform:translateY(60px) scale(0.92); }}
+  60%  {{ opacity:1; }}
   80%  {{ transform:translateY(-4px) scale(1.01); }}
-  100% {{ opacity:1; transform:translateY(0) scale(1); filter:blur(0); }}
+  100% {{ opacity:1; transform:translateY(0) scale(1); }}
 }}
 @keyframes flyInLeft {{
-  0%   {{ opacity:0; transform:translateX(-50px) scale(0.93); filter:blur(5px); }}
-  60%  {{ opacity:1; filter:blur(0); }}
+  0%   {{ opacity:0; transform:translateX(-50px) scale(0.93); }}
+  60%  {{ opacity:1; }}
   80%  {{ transform:translateX(3px) scale(1.005); }}
-  100% {{ opacity:1; transform:translateX(0) scale(1); filter:blur(0); }}
+  100% {{ opacity:1; transform:translateX(0) scale(1); }}
 }}
 @keyframes flyInRight {{
-  0%   {{ opacity:0; transform:translateX(50px) scale(0.93); filter:blur(5px); }}
-  60%  {{ opacity:1; filter:blur(0); }}
+  0%   {{ opacity:0; transform:translateX(50px) scale(0.93); }}
+  60%  {{ opacity:1; }}
   80%  {{ transform:translateX(-3px) scale(1.005); }}
-  100% {{ opacity:1; transform:translateX(0) scale(1); filter:blur(0); }}
+  100% {{ opacity:1; transform:translateX(0) scale(1); }}
 }}
 .nx-cascade-1 {{ animation: flyInLeft 0.5s cubic-bezier(0.22,1,0.36,1) 0.05s both; }}
 .nx-cascade-2 {{ animation: flyInUp 0.5s cubic-bezier(0.22,1,0.36,1) 0.12s both; }}
@@ -673,7 +675,15 @@ if st.session_state.entered is False:
 [data-testid="stHeader"]{{display:none;}}
 [data-testid="stToolbar"]{{display:none;}}
 .stApp>header{{display:none;}}
-html,body,[data-testid="stAppViewContainer"]{{overflow-x:hidden;}}
+html,body,[data-testid="stAppViewContainer"]{{overflow-x:hidden;-webkit-overflow-scrolling:touch;}}
+/* Mobile landing page fixes */
+@media (max-width: 768px) {{
+    .trader-scene {{ transform:scale(0.55) !important; transform-origin:top center; height:220px !important; margin-bottom:-60px; }}
+    .trader-scene svg {{ max-width:100vw; }}
+}}
+@media (max-width: 480px) {{
+    .trader-scene {{ transform:scale(0.4) !important; height:180px !important; margin-bottom:-80px; }}
+}}
 </style>""", unsafe_allow_html=True)
 
     # ── Animated trader scene ────────────────────────────────────────────────
@@ -1022,7 +1032,7 @@ animation:fadeInUp 0.8s ease 0.3s forwards;opacity:0;'>CRYPTO PREDICTION MARKET 
     # ── THE BIG BUTTON ──
     _, btn_col, _ = st.columns([1, 2, 1])
     with btn_col:
-        if st.button("⚡  INITIALIZE TERMINAL", use_container_width=True, type="primary"):
+        if st.button("INITIALIZE TERMINAL", use_container_width=True, type="primary"):
             st.session_state.entered = 'transitioning'
             st.rerun()
 
@@ -1061,7 +1071,7 @@ if st.session_state.get('entered') == 'transitioning':
 .stApp>header{{display:none;}}
 .block-container{{padding:0!important;max-width:100%!important;}}
 [data-testid="stAppViewContainer"]>div:first-child{{padding-top:0;}}
-html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!important;overflow:hidden!important;}}
+html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!important;overflow:hidden!important;-webkit-overflow-scrolling:touch;}}
 .stApp>div>div{{background:#020408!important;}}
 
 /* ── KEYFRAMES ── */
@@ -1074,6 +1084,11 @@ html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!importan
   30% {{ opacity:0.12; }}
   70% {{ transform:perspective(400px) rotateX(25deg) scale(1.2); opacity:0.06; }}
   100% {{ transform:perspective(400px) rotateX(0deg) scale(1); opacity:0; }}
+}}
+/* Reduce heavy animations on mobile */
+@media (max-width: 768px) {{
+  .tx-scan-1,.tx-scan-2,.tx-data-col,.tx-particle {{ display:none !important; }}
+  .tx-ring {{ animation-duration:2s !important; }}
 }}
 @keyframes horizonSlash {{
   0% {{ width:0; opacity:0; }}
@@ -1088,9 +1103,9 @@ html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!importan
   100% {{ top:105%; opacity:0; }}
 }}
 @keyframes titleExplode {{
-  0% {{ opacity:0; letter-spacing:60px; transform:scale(0.3); filter:blur(20px); }}
-  25% {{ opacity:1; letter-spacing:18px; transform:scale(1.1); filter:blur(2px); }}
-  40% {{ letter-spacing:10px; transform:scale(1); filter:blur(0); text-shadow:0 0 80px rgba(0,229,255,0.9),0 0 200px rgba(0,229,255,0.4); }}
+  0% {{ opacity:0; letter-spacing:60px; transform:scale(0.3); }}
+  25% {{ opacity:1; letter-spacing:18px; transform:scale(1.1); }}
+  40% {{ letter-spacing:10px; transform:scale(1); text-shadow:0 0 80px rgba(0,229,255,0.9),0 0 200px rgba(0,229,255,0.4); }}
   70% {{ opacity:1; text-shadow:0 0 40px rgba(0,229,255,0.6),0 0 100px rgba(0,229,255,0.2); }}
   100% {{ opacity:1; letter-spacing:10px; text-shadow:0 0 30px rgba(0,229,255,0.4); }}
 }}
@@ -1229,6 +1244,31 @@ html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!importan
   font-size:8px;line-height:1.4;color:{CYAN};text-align:center;
   animation:dataRain 4s linear forwards;opacity:0;
   font-family:'JetBrains Mono',monospace;
+}}
+
+/* ── Mobile transition overrides ── */
+@media (max-width: 768px) {{
+  .tx-title {{ font-size:3rem !important; animation:titleExplode 1.5s ease forwards !important; }}
+  .tx-subtitle {{ font-size:0.7rem !important; letter-spacing:3px !important; }}
+  .tx-boot {{ width:90vw !important; left:5% !important; transform:none !important; }}
+  .tx-boot-line {{ font-size:0.65rem !important; }}
+  .tx-progress-wrap {{ width:80vw !important; left:10% !important; transform:none !important; }}
+  .tx-scan,.tx-scan-2,.tx-data-col,.tx-particle {{ display:none !important; }}
+  .tx-grid {{ background-size:30px 30px !important; }}
+  .tx-ring {{ display:none !important; }}
+  .tx-horizon {{ box-shadow:none !important; }}
+  .await-title {{ font-size:2.5rem !important; letter-spacing:6px !important; }}
+  .await-diamond {{ font-size:3rem !important; }}
+  .await-sub {{ font-size:0.85rem !important; letter-spacing:2px !important; }}
+  .await-hint {{ font-size:0.85rem !important; }}
+  .await-status {{ flex-direction:column !important; gap:12px !important; align-items:center !important; }}
+  .await-status-item {{ font-size:0.8rem !important; }}
+  .await-orbit,.await-orbit2 {{ display:none !important; }}
+}}
+@media (max-width: 480px) {{
+  .tx-title {{ font-size:2.2rem !important; }}
+  .tx-boot {{ font-size:0.55rem !important; }}
+  .await-title {{ font-size:2rem !important; letter-spacing:4px !important; }}
 }}
 </style>
 
