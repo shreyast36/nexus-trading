@@ -190,7 +190,7 @@ Fusion Weights: Technical={dec.get('weights',{}).get('technical',0):.0%} | Polym
 
 # ── Page config ──────────────────────────────────────────────────────────────
 _entered = st.session_state.get('entered', False)
-st.set_page_config(page_title="NEXUS TERMINAL", page_icon="◆", layout="wide",
+st.set_page_config(page_title="NEXUS TERMINAL", page_icon="N", layout="wide",
                    initial_sidebar_state="expanded" if _entered is True else "collapsed")
 
 # ── Theme constants ──────────────────────────────────────────────────────────
@@ -572,6 +572,85 @@ h1,h2,h3,h4,h5,h6 {{
     box-shadow: 0 0 8px {GREEN};
     animation: pulse 2s infinite;
 }}
+
+/* ── Streamlit expander title fix ── */
+[data-testid="stExpander"] summary span {{
+    letter-spacing: 1.5px !important;
+    word-spacing: 4px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
+    color: {CYAN} !important;
+    text-transform: uppercase !important;
+}}
+[data-testid="stExpander"] {{
+    border: 1px solid {BORDER} !important;
+    border-radius: 8px !important;
+    background: linear-gradient(135deg, rgba(11,17,32,0.95), rgba(15,25,50,0.9)) !important;
+}}
+[data-testid="stExpander"] summary {{
+    padding: 12px 16px !important;
+}}
+
+/* ── Mobile responsive ── */
+@media (max-width: 768px) {{
+    .block-container {{ padding: 0.3rem 0.5rem 0 0.5rem !important; }}
+    .nx-ticker {{
+        flex-direction: column !important;
+        gap: 8px !important;
+        padding: 10px 12px !important;
+        white-space: normal !important;
+    }}
+    .nx-ticker > div {{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 8px !important;
+    }}
+    .nx-panel {{
+        padding: 10px 10px !important;
+    }}
+    .nx-panel-title {{
+        font-size: 0.85rem !important;
+        letter-spacing: 1.5px !important;
+    }}
+    .nx-row {{
+        font-size: 0.9rem !important;
+        flex-wrap: wrap !important;
+        gap: 4px !important;
+    }}
+    .nx-label {{ font-size: 0.85rem !important; }}
+    .nx-big {{ font-size: 1.6rem !important; }}
+    .nx-news-item {{ font-size: 0.9rem !important; }}
+    [data-testid="stMetricValue"] {{ font-size: 1.4rem !important; }}
+    h1 {{ font-size: 1.2rem !important; letter-spacing: 1px !important; }}
+    h2 {{ font-size: 1rem !important; }}
+    h3 {{ font-size: 0.9rem !important; }}
+    [data-testid="stExpander"] summary span {{
+        font-size: 0.8rem !important;
+        letter-spacing: 1px !important;
+    }}
+    .nx-action-long, .nx-action-short, .nx-action-flat {{
+        padding: 12px 8px !important;
+    }}
+    /* Oracle chat floating panel - full width on mobile */
+    [data-testid="stVerticalBlock"][style*="position:fixed"] {{
+        width: calc(100vw - 20px) !important;
+        left: 10px !important;
+        right: 10px !important;
+        bottom: 10px !important;
+        max-height: 70vh !important;
+    }}
+}}
+
+@media (max-width: 480px) {{
+    .block-container {{ padding: 0.2rem 0.3rem 0 0.3rem !important; }}
+    .nx-ticker > div:last-child {{
+        gap: 10px !important;
+    }}
+    .nx-panel {{ padding: 8px 8px !important; }}
+    .nx-big {{ font-size: 1.3rem !important; }}
+    [data-testid="stMetricValue"] {{ font-size: 1.2rem !important; }}
+}}
 </style>
 """, unsafe_allow_html=True)
 
@@ -742,7 +821,7 @@ html,body,[data-testid="stAppViewContainer"]{{overflow-x:hidden;}}
 
 <div style='text-align:center;padding:16px 20px 0;'>
 <div style='font-size:4.8rem;color:{CYAN};font-weight:900;font-family:Inter,sans-serif;letter-spacing:10px;
-animation:heroGlow 3s ease-in-out infinite;line-height:1;'>◆ NEXUS</div>
+animation:heroGlow 3s ease-in-out infinite;line-height:1;'>&#9670; NEXUS</div>
 <div style='color:{DIM};font-size:1.05rem;margin-top:8px;letter-spacing:5px;font-family:Inter,sans-serif;
 animation:fadeInUp 0.8s ease 0.3s forwards;opacity:0;'>CRYPTO PREDICTION MARKET TERMINAL</div>
 </div>
@@ -803,7 +882,7 @@ animation:fadeInUp 0.8s ease 0.3s forwards;opacity:0;'>CRYPTO PREDICTION MARKET 
     </g>
     <!-- monitor label -->
     <text x='135' y='138' fill='{CYAN}' font-family='JetBrains Mono,monospace' font-size='9' opacity='0.7'>BTC/USD · 1H</text>
-    <text x='275' y='138' fill='{GREEN}' font-family='JetBrains Mono,monospace' font-size='9' text-anchor='end' opacity='0.8'>▲ +2.4%</text>
+    <text x='275' y='138' fill='{GREEN}' font-family='JetBrains Mono,monospace' font-size='9' text-anchor='end' opacity='0.8'>&#9650; +2.4%</text>
     <!-- scan line -->
     <rect class='scan-line' x='116' y='120' width='218' height='1.5' fill='{CYAN}' opacity='0.15' style='position:relative;'/>
   </g>
@@ -834,7 +913,7 @@ animation:fadeInUp 0.8s ease 0.3s forwards;opacity:0;'>CRYPTO PREDICTION MARKET 
     <circle cx='540' cy='130' r='3' fill='{CYAN}' class='signal-ping' opacity='0.6'/>
     <circle cx='540' cy='130' r='3' fill='{CYAN}' class='signal-ping-2' opacity='0.4'/>
     <!-- labels -->
-    <text x='360' y='108' fill='{CYAN}' font-family='JetBrains Mono,monospace' font-size='9.5' font-weight='700'>◆ NEXUS FUSION</text>
+    <text x='360' y='108' fill='{CYAN}' font-family='JetBrains Mono,monospace' font-size='9.5' font-weight='700'>&#9670; NEXUS FUSION</text>
     <text x='540' y='108' fill='{GREEN}' font-family='JetBrains Mono,monospace' font-size='9' text-anchor='end'>BULLISH 0.72</text>
     <!-- crosshair -->
     <line x1='480' y1='95' x2='480' y2='280' stroke='{CYAN}' stroke-width='0.5' stroke-dasharray='3,3' opacity='0.2'/>
@@ -911,7 +990,7 @@ animation:fadeInUp 0.8s ease 0.3s forwards;opacity:0;'>CRYPTO PREDICTION MARKET 
   <text class='data-particle' x='710' y='100' fill='{GREEN}' style='animation-delay:0.8s'>+2.4%</text>
   <text class='data-particle' x='270' y='115' fill='{PURPLE}' style='animation-delay:1.3s'>72% YES</text>
   <text class='data-particle' x='620' y='108' fill='{AMBER}' style='animation-delay:1.8s'>RSI: 62</text>
-  <text class='data-particle' x='200' y='95' fill='{GREEN}' style='animation-delay:2.3s'>MACD ▲</text>
+  <text class='data-particle' x='200' y='95' fill='{GREEN}' style='animation-delay:2.3s'>MACD &#9650;</text>
   <text class='data-particle' x='680' y='95' style='animation-delay:2.8s'>VOL: 1.2B</text>
 
   <!-- desk reflection/glow -->
@@ -967,7 +1046,7 @@ if st.session_state.get('entered') == 'transitioning':
         'AVAX': (38.15, -2.1), 'DOT': (8.92, +0.6), 'DOGE': (0.187, +4.7),
         'LINK': (18.45, +1.8), 'LTC': (94.20, -0.3), 'UNI': (12.85, +2.9),
     }
-    _ticker_html = " &nbsp;&nbsp;●&nbsp;&nbsp; ".join(
+    _ticker_html = " &nbsp;&nbsp;&#8226;&nbsp;&nbsp; ".join(
         f"<span style='color:#eef2f7;font-weight:600;'>{sym}</span> "
         f"<span style='color:{GREEN if chg>0 else RED};'>${p:,.2f} ({chg:+.1f}%)</span>"
         for sym,(p,chg) in _sim_prices.items()
@@ -1166,17 +1245,17 @@ html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!importan
   <div class='tx-ring' style='animation-delay:1.1s;border-color:{GREEN};width:40px;height:40px;'></div>
 
   <!-- TITLE -->
-  <div class='tx-title'>◆ NEXUS</div>
+  <div class='tx-title'>&#9670; NEXUS</div>
   <div class='tx-subtitle'>INITIALIZING PREDICTION TERMINAL</div>
 
   <!-- boot sequence -->
   <div class='tx-boot'>
-    <div class='tx-boot-line' style='animation-delay:0.2s;color:{GREEN};'>▸ OPERATOR AUTHENTICATED</div>
-    <div class='tx-boot-line' style='animation-delay:0.4s;color:{GREEN};'>▸ YAHOO FINANCE STREAM ── CONNECTED</div>
-    <div class='tx-boot-line' style='animation-delay:0.6s;color:{GREEN};'>▸ POLYMARKET GAMMA API ── CONNECTED</div>
-    <div class='tx-boot-line' style='animation-delay:0.8s;color:{GREEN};'>▸ RSS/VADER NLP ENGINE ── LOADED</div>
-    <div class='tx-boot-line' style='animation-delay:1.0s;color:{CYAN};'>▸ FUSION ENGINE CALIBRATED</div>
-    <div class='tx-boot-line' style='animation-delay:1.2s;color:{AMBER};font-weight:700;animation:bootLine 0.3s ease 1.2s forwards,statusGlow 0.4s ease-in-out 1.2s 2;'>▸ ALL SYSTEMS GO ── ENTERING TERMINAL</div>
+    <div class='tx-boot-line' style='animation-delay:0.2s;color:{GREEN};'>&#9656; OPERATOR AUTHENTICATED</div>
+    <div class='tx-boot-line' style='animation-delay:0.4s;color:{GREEN};'>&#9656; YAHOO FINANCE STREAM &#8212;&#8212; CONNECTED</div>
+    <div class='tx-boot-line' style='animation-delay:0.6s;color:{GREEN};'>&#9656; POLYMARKET GAMMA API &#8212;&#8212; CONNECTED</div>
+    <div class='tx-boot-line' style='animation-delay:0.8s;color:{GREEN};'>&#9656; RSS/VADER NLP ENGINE &#8212;&#8212; LOADED</div>
+    <div class='tx-boot-line' style='animation-delay:1.0s;color:{CYAN};'>&#9656; FUSION ENGINE CALIBRATED</div>
+    <div class='tx-boot-line' style='animation-delay:1.2s;color:{AMBER};font-weight:700;animation:bootLine 0.3s ease 1.2s forwards,statusGlow 0.4s ease-in-out 1.2s 2;'>&#9656; ALL SYSTEMS GO &#8212;&#8212; ENTERING TERMINAL</div>
   </div>
 
   <!-- progress bar -->
@@ -1209,7 +1288,7 @@ html,body,.stApp,[data-testid="stAppViewContainer"]{{background:#020408!importan
   <!-- Flowing ticker bar at bottom -->
   <div style='position:absolute;bottom:0;left:0;right:0;height:36px;background:linear-gradient(180deg,transparent,rgba(5,8,15,0.95));overflow:hidden;border-top:1px solid rgba(0,229,255,0.15);'>
     <div style='display:flex;animation:tickerFlow 20s linear infinite;white-space:nowrap;padding:8px 0;font-family:JetBrains Mono,monospace;font-size:0.82rem;'>
-      {_ticker_html} &nbsp;&nbsp;●&nbsp;&nbsp; {_ticker_html} &nbsp;&nbsp;●&nbsp;&nbsp; {_ticker_html}
+      {_ticker_html} &nbsp;&nbsp;&#8226;&nbsp;&nbsp; {_ticker_html} &nbsp;&nbsp;&#8226;&nbsp;&nbsp; {_ticker_html}
     </div>
   </div>
 </div>
@@ -1298,14 +1377,14 @@ try {
 with st.sidebar:
     st.markdown(f"""
     <div style='padding:4px 0 8px 0;'>
-        <span style='color:{CYAN};font-size:1.3rem;font-weight:800;font-family:Inter,sans-serif;letter-spacing:3px;'>◆ NEXUS</span><br>
+        <span style='color:{CYAN};font-size:1.3rem;font-weight:800;font-family:Inter,sans-serif;letter-spacing:3px;'>&#9670; NEXUS</span><br>
         <span style='color:{DIM};font-size:0.78rem;letter-spacing:2px;font-family:Inter,sans-serif;'>CRYPTO PREDICTION TERMINAL</span>
     </div>""", unsafe_allow_html=True)
     st.markdown("---")
 
     _tickers = sorted(set(v['ticker'] for v in ASSETS.values()))
     selected_asset = st.selectbox("ASSET", _tickers, index=_tickers.index("BTC"))
-    analyze_btn = st.button("▶  EXECUTE SCAN", use_container_width=True, type="primary")
+    analyze_btn = st.button("EXECUTE SCAN", use_container_width=True, type="primary")
 
     st.markdown("---")
     st.markdown(f"""
@@ -1330,20 +1409,20 @@ markets &amp; news sentiment into one signal.
 border:1px solid rgba(179,136,255,0.3);border-radius:8px;'>
     <div style='display:flex;align-items:center;gap:10px;margin-bottom:8px;'>
         <div style='width:28px;height:28px;background:linear-gradient(135deg,{PURPLE},{CYAN});border-radius:50%;
-        display:flex;align-items:center;justify-content:center;font-size:0.9rem;box-shadow:0 0 12px rgba(179,136,255,0.4);'>◇</div>
+        display:flex;align-items:center;justify-content:center;font-size:0.9rem;box-shadow:0 0 12px rgba(179,136,255,0.4);'>&#9671;</div>
         <span style='color:{PURPLE};font-size:0.95rem;font-weight:700;letter-spacing:2px;font-family:Inter,sans-serif;'>ORACLE AI</span>
     </div>
     <span style='color:{DIM};font-size:0.75rem;line-height:1.5;'>
     ChatGPT-powered market intelligence.<br>Ask anything about your analysis.
     </span>
 </div>""", unsafe_allow_html=True)
-    oracle_btn = st.button("◇  SUMMON ORACLE", use_container_width=True, key="oracle_btn")
+    oracle_btn = st.button("SUMMON ORACLE", use_container_width=True, key="oracle_btn")
     
     st.markdown("<div style='height:8px;'></div>", unsafe_allow_html=True)
-    shutdown_btn = st.button("⏻  SHUTDOWN TERMINAL", use_container_width=True)
+    shutdown_btn = st.button("SHUTDOWN TERMINAL", use_container_width=True)
     
     st.markdown("<div style='height:8px;'></div>", unsafe_allow_html=True)
-    info_btn = st.button("ℹ  MORE INFO", use_container_width=True, key="info_btn")
+    info_btn = st.button("MORE INFO", use_container_width=True, key="info_btn")
 
     # Instant shutdown sound — plays in main frame before rerun
     if shutdown_btn:
@@ -1921,7 +2000,7 @@ if st.session_state.data is None:
   <div class='await-orbit'></div>
   <div class='await-orbit2'></div>
 
-  <div class='await-diamond'>◆</div>
+  <div class='await-diamond'>&#9670;</div>
   <div class='await-title'>NEXUS</div>
   <div class='await-sub'>TERMINAL ONLINE — AWAITING SCAN</div>
   <div class='await-bar-wrap'><div class='await-bar'></div></div>
@@ -2154,7 +2233,7 @@ price_str = f"${tech['price']:,.2f}" if tech else "---"
 price_clr = GREEN if tech and tech.get('rsi', 50) > 50 else RED
 action = dec['action']
 clr = GREEN if action == "LONG" else RED if action == "SHORT" else DIM
-icon = "▲" if action == "LONG" else "▼" if action == "SHORT" else "◼"
+icon = "&#9650;" if action == "LONG" else "&#9660;" if action == "SHORT" else "&#9724;"
 size_pct = dec['position_size'] * 100
 conf = dec['confidence']
 caut = dec['caution']
@@ -2505,7 +2584,7 @@ with st.expander("SIGNAL SOURCES", expanded=False):
             for m in pm.get('markets', [])[:6]:
                 direction = m.get('direction') or polymarket.tag_direction(m['question'], asset['ticker'])
                 dclr = GREEN if direction=="bullish" else RED if direction=="bearish" else DIM
-                icon = "▲" if direction=="bullish" else "▼" if direction=="bearish" else "●"
+                icon = "&#9650;" if direction=="bullish" else "&#9660;" if direction=="bearish" else "&#8226;"
                 odds = f"{m['yes_odds']*100:.0f}%" if m.get('yes_odds') else "—"
                 q = m['question'][:50] + ('…' if len(m['question'])>50 else '')
                 pm_items += f"""<div class='nx-news-item'>
@@ -2716,7 +2795,7 @@ if _has_extended:
 # ── Footer ───────────────────────────────────────────────────────────────────
 st.markdown(f"""<div style='text-align:center;padding:14px;margin-top:12px;border-top:1px solid {BORDER};'>
 <span style='color:#2a3552;font-size:0.95rem;letter-spacing:2px;font-family:Inter,sans-serif;'>
-NEXUS TERMINAL v3.0 &nbsp;◆&nbsp; RULE-BASED DECISION ENGINE &nbsp;◆&nbsp; {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+NEXUS TERMINAL v3.0 &nbsp;&#9670;&nbsp; RULE-BASED DECISION ENGINE &nbsp;&#9670;&nbsp; {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 </span>
 </div>""", unsafe_allow_html=True)
 
