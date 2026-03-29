@@ -296,7 +296,7 @@ h1,h2,h3,h4,h5,h6 {{
     gap: 6px;
 }}
 .nx-panel-title::before {{
-    content: '◆';
+    content: '';
     font-size: 0.8rem;
     color: {CYAN};
 }}
@@ -519,10 +519,7 @@ h1,h2,h3,h4,h5,h6 {{
     color: #c0c8d8;
 }}
 .oracle-msg-ai::before {{
-    content: '◆';
-    color: {PURPLE};
-    margin-right: 6px;
-    font-size: 0.8rem;
+    content: '';
 }}
 .oracle-typing {{
     display: flex;
@@ -1620,6 +1617,7 @@ try {{
     st.session_state.entered = False
     st.session_state.data = None
     st.rerun()
+    st.stop()  # Prevent any content below from rendering during shutdown
 
 import threading, time as _cache_time
 
